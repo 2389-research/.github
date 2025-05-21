@@ -28,7 +28,7 @@ FOOTER_MD = """
 ---
 Built with 🛠️ & 👽 by **[2398 Research Inc](https://2398.ai)**  
 Say hi [hello@2389.ai](mailto:hello@2389.ai)  
-Visit our [blog](https://2389.ai/blog)
+Visit our [blog](https://2389.ai/blog)   
 Check out our [code](https://github.com/orgs/2389-research/repositories)
 """
 
