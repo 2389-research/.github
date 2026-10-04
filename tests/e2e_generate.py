@@ -1,0 +1,68 @@
+# ABOUTME: Runs the actual generator CLI against live GitHub and research RSS sources.
+# ABOUTME: Checks the complete public repository directory in a temporary output file.
+import json
+import os
+import re
+import subprocess
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+from urllib.request import Request, urlopen
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class LiveProfileTests(unittest.TestCase):
+    def test_public_sources_generate_complete_profile(self) -> None:
+        headers = {"User-Agent": "2389-profile-e2e"}
+        token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+        url = "https://api.github.com/orgs/2389-research/repos?type=public&per_page=100"
+        names: list[str] = []
+        while url:
+            with urlopen(Request(url, headers=headers), timeout=30) as response:
+                names.extend(
+                    repo["name"] for repo in json.load(response) if not repo["private"]
+                )
+                next_page = re.search(
+                    r'<([^>]+)>;\s*rel="next"', response.headers.get("Link", "")
+                )
+                url = next_page[1] if next_page else ""
+        self.assertGreater(len(names), 0)
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "README.md"
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    str(ROOT / "profile/generate.py"),
+                    "--output",
+                    str(output),
+                ],
+                cwd=directory,
+                capture_output=True,
+                text=True,
+                timeout=600,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(result.stderr, "")
+            content = output.read_text()
+            directory_section = content.split("<details>")[1]
+            self.assertEqual(directory_section.count("- ["), len(names))
+            for name in names:
+                self.assertIn(
+                    f"](https://github.com/2389-research/{name})", directory_section
+                )
+            releases = content.split("## Latest releases")[1].split("## ")[0]
+            self.assertIn("/releases/tag/", releases)
+            self.assertGreater(releases.count("- ["), 0)
+            self.assertLessEqual(releases.count("- ["), 10)
+            research = content.split("## Latest research")[1].split("## ")[0]
+            self.assertIn("https://2389.ai/research/", research)
+            self.assertGreater(research.count("- ["), 0)
+            self.assertLessEqual(research.count("- ["), 5)
+
+
+if __name__ == "__main__":
+    unittest.main()
