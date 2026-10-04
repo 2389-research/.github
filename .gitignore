@@ -1,0 +1,6 @@
+# ABOUTME: Keeps local Python environments and tool caches out of version control.
+# ABOUTME: Generated profile Markdown remains tracked.
+.venv/
+__pycache__/
+.mypy_cache/
+.ruff_cache/

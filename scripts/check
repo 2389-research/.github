@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# ABOUTME: Run all offline checks for the organization profile generator.
+# ABOUTME: Fail with a clear prerequisite error before invoking missing tools.
+set -euo pipefail
+
+case "${1:-}" in
+  -h|--help)
+    echo 'Usage: scripts/check'
+    echo 'Run formatting, lint, type, unit/integration, and workflow checks.'
+    echo 'Requires uv and actionlint. Live API tests are documented in README.md.'
+    exit 0
+    ;;
+  '') ;;
+  *) echo "Unknown argument: $1. Use --help." >&2; exit 2 ;;
+esac
+
+cd "$(dirname "$0")/.."
+for tool in uv actionlint; do
+  if ! command -v "$tool" >/dev/null 2>&1; then
+    echo "Missing $tool. See README.md for setup instructions." >&2
+    exit 1
+  fi
+done
+
+uv sync --locked
+uv run --locked ruff format --check profile/generate.py tests
+uv run --locked ruff check profile/generate.py tests
+uv run --locked mypy profile/generate.py tests
+uv run --locked python -m unittest discover -s tests -p 'test_*.py'
+actionlint
