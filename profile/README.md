@@ -36,6 +36,19 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [Tracker Runner: a control plane for Tracker pipelines](https://2389.ai/research/writing/tracker-runner/) — 2026-09-10
 - [Tracker Grew Up: Two Months of Making Agent Pipelines Boring](https://2389.ai/research/writing/tracker-grew-up/) — 2026-09-08
 
+## Top starred repos
+
+- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 95 stars
+- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 32 stars
+- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 21 stars
+- [tracker](https://github.com/2389-research/tracker) — 21 stars
+- [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 18 stars
+- [thrifty](https://github.com/2389-research/thrifty) — Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. — 17 stars
+- [simmer](https://github.com/2389-research/simmer) — Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements — 15 stars
+- [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — 14 stars
+- [summarize\-meetings](https://github.com/2389-research/summarize-meetings) — Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction — 13 stars
+- [review\-squad](https://github.com/2389-research/review-squad) — Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks — 12 stars
+
 ## Repository directory
 
 <details>

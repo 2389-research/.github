@@ -20,10 +20,10 @@ class LiveProfileTests(unittest.TestCase):
         if token:
             headers["Authorization"] = f"Bearer {token}"
         url = "https://api.github.com/orgs/2389-research/repos?type=public&per_page=100"
-        names: list[str] = []
+        names: set[str] = set()
         while url:
             with urlopen(Request(url, headers=headers), timeout=30) as response:
-                names.extend(
+                names.update(
                     repo["name"] for repo in json.load(response) if not repo["private"]
                 )
                 next_page = re.search(
@@ -54,6 +54,24 @@ class LiveProfileTests(unittest.TestCase):
                 self.assertIn(
                     f"](https://github.com/2389-research/{name})", directory_section
                 )
+            self.assertIn("## Top starred repos", content)
+            top_starred = content.split("## Top starred repos")[1].split("## ")[0]
+            ranked = re.findall(
+                r"^- \[.*\]\(https://github.com/2389-research/([^)]*)\)"
+                r".* — (\d+) stars$",
+                top_starred,
+                re.MULTILINE,
+            )
+            ranking = [(name, int(count)) for name, count in ranked]
+            self.assertEqual(len(ranking), min(10, len(names)))
+            self.assertEqual(len({name for name, _ in ranking}), len(ranking))
+            for name, count in ranking:
+                self.assertIn(name, names)
+                self.assertGreaterEqual(count, 0)
+            self.assertEqual(
+                ranking,
+                sorted(ranking, key=lambda row: (-row[1], row[0].casefold(), row[0])),
+            )
             releases = content.split("## Latest releases")[1].split("## ")[0]
             self.assertIn("/releases/tag/", releases)
             self.assertGreater(releases.count("- ["), 0)

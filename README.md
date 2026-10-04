@@ -11,6 +11,9 @@ change its layout or introduction.
 - Ten most recently published GitHub Releases across all public repos. Drafts
   are excluded; prereleases are labeled. Git tags without a release do not appear.
 - Five latest posts from [the writing RSS feed](https://2389.ai/research/writing/index.xml).
+- Ten public repos with the most stars, with counts, descriptions, and fork/archive
+  labels. Ties sort alphabetically, ignoring case first. All public repos qualify;
+  star counts come from the existing repository requests.
 - An alphabetical, expandable directory of **every public repo**, including
   forks and archived projects. Repository and release requests fetch all pages.
 
