@@ -28,6 +28,7 @@ def repo(name: str, **fields: Any) -> dict[str, Any]:
         "archived": False,
         "fork": False,
         "pushed_at": "2026-01-01T00:00:00Z",
+        "stargazers_count": 0,
         **fields,
     }
 
@@ -76,6 +77,69 @@ class RenderingTests(unittest.TestCase):
         self.assertIn("archived", directory)
         self.assertIn("fork", directory)
         self.assertNotIn("private", directory)
+
+    def test_top_starred_ranks_numerically_limits_to_ten_and_breaks_ties(self) -> None:
+        records = [repo(f"repo-{n}", stargazers_count=n) for n in range(10)]
+        records += [
+            repo("zeta", stargazers_count=100),
+            repo("beta", stargazers_count=20),
+            repo("alpha", stargazers_count=20),
+            repo("Alpha", stargazers_count=20),
+        ]
+        output = generate.render_profile(generate.parse_repositories(records), [], [])
+        self.assertIn("## Top starred repos", output)
+        section = output.split("## Top starred repos")[1].split("## ")[0]
+        lines = [line for line in section.splitlines() if line.startswith("- [")]
+        expected = ["zeta", "Alpha", "alpha", "beta"] + [
+            f"repo-{n}" for n in range(9, 3, -1)
+        ]
+        self.assertEqual(len(lines), 10)
+        for line, name in zip(lines, expected, strict=True):
+            self.assertIn(f"](https://github.com/2389-research/{name})", line)
+        self.assertTrue(lines[0].endswith(" — 100 stars"))
+        self.assertTrue(lines[-1].endswith(" — 4 stars"))
+        self.assertEqual(
+            output.split("## Top starred repos")[1].split("## ")[1].splitlines()[0],
+            "Repository directory",
+        )
+
+    def test_top_starred_includes_all_public_repo_types_and_existing_labels(
+        self,
+    ) -> None:
+        records = [
+            repo("archive", archived=True, stargazers_count=4),
+            repo("fork", fork=True, stargazers_count=3),
+            repo(".github", stargazers_count=2),
+            repo("empty", pushed_at=None, stargazers_count=0),
+            repo("secret", private=True, stargazers_count=100),
+        ]
+        output = generate.render_profile(generate.parse_repositories(records), [], [])
+        self.assertIn("## Top starred repos", output)
+        section = output.split("## Top starred repos")[1].split("## ")[0]
+        self.assertEqual(section.count("- ["), 4)
+        self.assertIn("(archived) — Useful code — 4 stars", section)
+        self.assertIn("(fork) — Useful code — 3 stars", section)
+        self.assertIn("/2389-research/.github)", section)
+        self.assertIn("/2389-research/empty) — Useful code — 0 stars", section)
+        self.assertNotIn("secret", section)
+
+    def test_repository_star_counts_must_be_nonnegative_integers(self) -> None:
+        for count in [-1, 1.5, "5", None, True, False]:
+            with (
+                self.subTest(count=count),
+                self.assertRaisesRegex(ValueError, "stargazers_count"),
+            ):
+                generate.parse_repositories([repo("alpha", stargazers_count=count)])
+        record = repo("alpha")
+        del record["stargazers_count"]
+        with self.assertRaisesRegex(ValueError, "stargazers_count"):
+            generate.parse_repositories([record])
+
+    def test_top_starred_empty_state(self) -> None:
+        output = generate.render_profile([], [], [])
+        self.assertIn("## Top starred repos", output)
+        section = output.split("## Top starred repos")[1].split("## ")[0]
+        self.assertIn("No public repositories yet.", section)
 
     def test_recent_activity_uses_push_time_and_limits_to_eight_active_repos(
         self,
@@ -301,6 +365,32 @@ class HttpTests(unittest.TestCase):
                     path, api_url=self.base, feed_url=f"{self.base}/feed", token=""
                 )
             self.assertEqual(path.read_text(), "last good profile\n")
+
+    def test_refresh_renders_star_counts_from_every_repository_page(self) -> None:
+        self.respond(
+            "/orgs/2389-research/repos?type=public&per_page=100",
+            [repo("alpha", stargazers_count=9)],
+            Link=f'<{self.base}/page2>; rel="next"',
+        )
+        self.respond(
+            "/page2",
+            [
+                repo("beta", stargazers_count=100, archived=True, fork=True),
+                repo("secret", private=True, stargazers_count=999),
+            ],
+        )
+        self.respond("/repos/2389-research/beta/releases?per_page=100", [])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "README.md"
+            generate.refresh(path, api_url=self.base, feed_url=f"{self.base}/feed")
+            output = path.read_text()
+        self.assertIn("## Top starred repos", output)
+        section = output.split("## Top starred repos")[1].split("## ")[0]
+        self.assertLess(section.index("beta"), section.index("alpha"))
+        self.assertIn("(archived, fork) — Useful code — 100 stars", section)
+        self.assertIn("Useful code — 9 stars", section)
+        self.assertNotIn("secret", output)
+        self.assertEqual(len(self.requests), 5)
 
     def test_http_failure_reports_status_without_retaining_open_response(self) -> None:
         self.responses["/failure"] = (503, b"unavailable", {})

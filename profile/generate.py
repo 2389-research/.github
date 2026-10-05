@@ -31,6 +31,7 @@ class Repository:
     archived: bool
     fork: bool
     pushed: datetime | None
+    stars: int
 
 
 @dataclass(frozen=True)
@@ -86,6 +87,9 @@ def parse_repositories(records: list[dict[str, Any]]) -> list[Repository]:
         description = record.get("description")
         if description is not None and not isinstance(description, str):
             raise ValueError("Invalid repository description")
+        stars = record.get("stargazers_count")
+        if type(stars) is not int or stars < 0:
+            raise ValueError("Missing or invalid stargazers_count")
         repositories.append(
             Repository(
                 text_field(record, "name"),
@@ -96,6 +100,7 @@ def parse_repositories(records: list[dict[str, Any]]) -> list[Repository]:
                 timestamp(text_field(record, "pushed_at"))
                 if record.get("pushed_at") is not None
                 else None,
+                stars,
             )
         )
     return repositories
@@ -283,6 +288,15 @@ def render_profile(
         )
     if not posts:
         lines.append("No research posts yet.")
+    lines.extend(["", "## Top starred repos", ""])
+    top_starred = sorted(
+        repositories, key=lambda r: (-r.stars, r.name.casefold(), r.name)
+    )[:10]
+    lines.extend(
+        f"{repository_line(repo)} — {repo.stars} stars" for repo in top_starred
+    )
+    if not top_starred:
+        lines.append("No public repositories yet.")
     lines.extend(
         [
             "",
