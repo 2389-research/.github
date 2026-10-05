@@ -9,6 +9,7 @@ import unittest
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Any
+from urllib.parse import unquote
 
 SPEC = importlib.util.spec_from_file_location(
     "generate", Path(__file__).resolve().parents[1] / "profile/generate.py"
@@ -58,6 +59,22 @@ def item(title: str, date: str) -> str:
 
 
 class RenderingTests(unittest.TestCase):
+    def test_wordmark_is_the_first_content_and_preserves_spacing(self) -> None:
+        expected = "\n".join(
+            [
+                "░▒▓███████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓██████▓▒░",
+                "       ░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░",
+                "       ░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░",
+                " ░▒▓██████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓███████▓▒░",
+                "░▒▓█▓▒░             ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░",
+                "░▒▓█▓▒░             ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░",
+                "░▒▓████████▓▒░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓██████▓▒░",
+            ]
+        )
+        output = generate.render_profile([], [], [])
+        self.assertTrue(output.startswith(f"```text\n{expected}\n```\n\n"))
+        self.assertIn("\n# 2389 Research\n", output)
+
     def setUp(self) -> None:
         self.assertTrue(
             hasattr(generate, "render_profile"), "content generator missing"
@@ -118,6 +135,47 @@ class RenderingTests(unittest.TestCase):
             )
         self.assertEqual(directory.count("| ["), 3)
 
+    def test_topic_cloud_counts_deduplicates_and_weights_public_repositories(
+        self,
+    ) -> None:
+        records = [
+            repo("alpha", topics=["agents", "agents", "tools"]),
+            repo("archive", topics=["agents"], archived=True),
+            repo("fork", topics=["agents", "tools"], fork=True),
+            repo("tiny", topics=["small"]),
+            repo("secret", topics=["private"], private=True),
+        ]
+        output = generate.render_profile(generate.parse_repositories(records), [], [])
+        self.assertIn("## Topics", output)
+        cloud = output.split("## Topics")[1].split("## ")[0]
+        base = "https://github.com/2389-research/.github/blob/HEAD/profile/topics/"
+        self.assertIn(f"**[agents (3)]({base}agents.md)**", cloud)
+        self.assertIn(f"**[tools (2)]({base}tools.md)**", cloud)
+        self.assertIn(f" · [small (1)]({base}small.md)", cloud)
+        self.assertNotIn("private", cloud)
+        self.assertLess(
+            output.index("## Topics"), output.index("## Repository directory")
+        )
+
+    def test_topics_limit_to_thirty_and_break_ties_by_case_then_name(self) -> None:
+        topics = ["zeta", "beta", "Beta"] + [f"topic-{n:02}" for n in range(30)]
+        output = generate.render_profile(
+            generate.parse_repositories([repo("alpha", topics=topics)]), [], []
+        )
+        self.assertIn("## Topics", output)
+        cloud = output.split("## Topics")[1].split("## ")[0]
+        self.assertEqual(cloud.count("blob/HEAD/profile/topics/"), 30)
+        self.assertLess(cloud.index("[Beta"), cloud.index("[beta"))
+        self.assertNotIn("zeta", cloud)
+        self.assertNotIn("topic\\-28", cloud)
+
+    def test_topics_empty_state(self) -> None:
+        output = generate.render_profile(
+            generate.parse_repositories([repo("alpha")]), [], []
+        )
+        self.assertIn("## Topics", output)
+        self.assertIn("No public repository topics yet.", output)
+
     def test_repository_topics_must_be_a_list_of_strings(self) -> None:
         for topics in [None, "agent", ["agent", 1], {"agent": True}]:
             with (
@@ -152,7 +210,7 @@ class RenderingTests(unittest.TestCase):
         self.assertTrue(lines[-1].endswith(" — 4 stars"))
         self.assertEqual(
             output.split("## Top starred repos")[1].split("## ")[1].splitlines()[0],
-            "Repository directory",
+            "Topics",
         )
 
     def test_top_starred_includes_all_public_repo_types_and_existing_labels(
@@ -526,6 +584,181 @@ class HttpTests(unittest.TestCase):
             "(archived, fork) | Useful code | agents, tools |", directory_section
         )
         self.assertEqual(len(self.requests), 5)
+
+    def topic_fixture(self, topics: list[str]) -> None:
+        self.respond(
+            "/orgs/2389-research/repos?type=public&per_page=100",
+            [repo("alpha", topics=topics, stargazers_count=2)],
+            Link=f'<{self.base}/page2>; rel="next"',
+        )
+        self.respond(
+            "/page2",
+            [
+                repo(
+                    "beta",
+                    topics=topics,
+                    stargazers_count=8,
+                    archived=True,
+                    fork=True,
+                    description="Tools | <agents>",
+                ),
+                repo("Beta", topics=topics, stargazers_count=8),
+                repo("outside", topics=[]),
+                repo("secret", private=True, topics=topics),
+            ],
+        )
+        for name in ["beta", "Beta", "outside"]:
+            self.respond(f"/repos/2389-research/{name}/releases?per_page=100", [])
+
+    def refresh_fixture(self, path: Path) -> bool:
+        return bool(
+            generate.refresh(path, api_url=self.base, feed_url=f"{self.base}/feed")
+        )
+
+    def test_refresh_topic_links_roundtrip_safe_paths_and_exact_membership(
+        self,
+    ) -> None:
+        topics = ["agents", "a/b", "a%2Fb", "..", "A", "a", "[x]|<y>", "café"]
+        self.topic_fixture(topics + ["agents"])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "nested" / "custom.md"
+            self.assertTrue(self.refresh_fixture(path))
+            cloud = path.read_text().split("## Topics")[1].split("## ")[0]
+            import re
+
+            targets = re.findall(r"blob/HEAD/profile/topics/([^)]*)", cloud)
+            self.assertEqual(len(targets), len(topics))
+            self.assertEqual(len({unquote(t).casefold() for t in targets}), len(topics))
+            self.assertEqual(
+                set((path.parent / "topics").iterdir()),
+                {path.parent / "topics" / unquote(t) for t in targets},
+            )
+            for target in targets:
+                filename = unquote(target)
+                self.assertNotIn("/", filename)
+                self.assertNotIn("\\", filename)
+                topic = unquote(filename[:-3])
+                self.assertIn(topic, topics)
+                page = (path.parent / "topics" / filename).read_text()
+                self.assertTrue(
+                    page.startswith(
+                        "<!-- Generated by profile/generate.py; do not edit. -->\n"
+                    )
+                )
+                self.assertIn(f"# {generate.markdown(topic)}", page)
+                self.assertIn("3 public repositories", page)
+                self.assertIn(
+                    "[Back to 2389 Research](https://github.com/2389-research)", page
+                )
+                self.assertIn("| Name | Description | Stars |", page)
+                self.assertEqual(page.count("| ["), 3)
+                self.assertLess(page.index("[Beta]"), page.index("[beta]"))
+                self.assertLess(page.index("[beta]"), page.index("[alpha]"))
+                self.assertIn(r"(archived, fork) | Tools \| &lt;agents&gt; | 8 |", page)
+                self.assertNotIn("outside", page)
+                self.assertNotIn("secret", page)
+            self.assertEqual(len(self.requests), 7)
+
+    def test_refresh_all_files_noop_and_page_only_changes_or_removals(self) -> None:
+        self.topic_fixture(["agents"])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "README.md"
+            self.assertTrue(self.refresh_fixture(path))
+            pages = path.parent / "topics"
+            self.assertTrue(pages.is_dir(), "topic pages missing")
+            files = [path, *pages.iterdir()]
+            before = {p: (p.stat().st_ino, p.stat().st_mtime_ns) for p in files}
+            self.assertFalse(self.refresh_fixture(path))
+            self.assertEqual(
+                before, {p: (p.stat().st_ino, p.stat().st_mtime_ns) for p in files}
+            )
+            page = pages / "agents.md"
+            page.write_text(page.read_text() + "drift\n")
+            self.assertTrue(self.refresh_fixture(path))
+            self.assertNotIn("drift", page.read_text())
+            stale = pages / "old.md"
+            stale.write_text(page.read_text())
+            unrelated = pages / "notes.md"
+            unrelated.write_text("My notes\n")
+            backup = pages / "backup.txt"
+            backup.write_text(page.read_text())
+            self.assertTrue(self.refresh_fixture(path))
+            self.assertFalse(stale.exists())
+            self.assertEqual(unrelated.read_text(), "My notes\n")
+            self.assertTrue(backup.exists())
+            self.assertEqual(
+                before[path], (path.stat().st_ino, path.stat().st_mtime_ns)
+            )
+            self.topic_fixture([])
+            self.assertTrue(self.refresh_fixture(path))
+            self.assertEqual(set(pages.iterdir()), {unrelated, backup})
+
+    def test_topic_collision_fails_before_any_output_changes(self) -> None:
+        self.topic_fixture(["agents", "tools"])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "README.md"
+            path.write_text("last good profile\n")
+            pages = path.parent / "topics"
+            pages.mkdir()
+            collision = pages / "tools.md"
+            collision.write_text("My notes\n")
+            with self.assertRaisesRegex(ValueError, "[Uu]nmarked"):
+                self.refresh_fixture(path)
+            self.assertEqual(path.read_text(), "last good profile\n")
+            self.assertEqual(collision.read_text(), "My notes\n")
+            self.assertEqual(list(pages.iterdir()), [collision])
+
+    def test_topic_case_collision_preserves_unmarked_files(self) -> None:
+        self.topic_fixture(["agents"])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "README.md"
+            path.write_text("last good profile\n")
+            pages = path.parent / "topics"
+            pages.mkdir()
+            notes = pages / "AGENTS.md"
+            notes.write_text("My notes\n")
+            if (pages / "agents.md").exists():
+                with self.assertRaisesRegex(ValueError, "[Uu]nmarked"):
+                    self.refresh_fixture(path)
+                self.assertEqual(path.read_text(), "last good profile\n")
+            else:
+                self.refresh_fixture(path)
+                self.assertTrue((pages / "agents.md").exists())
+            self.assertEqual(notes.read_text(), "My notes\n")
+
+    def test_topic_case_variant_is_not_deleted_after_refresh(self) -> None:
+        self.topic_fixture(["agents"])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "README.md"
+            self.refresh_fixture(path)
+            page = path.parent / "topics" / "agents.md"
+            page.rename(page.with_name("AGENTS.md"))
+            self.refresh_fixture(path)
+            self.assertTrue(page.exists())
+            self.assertIn("# agents", page.read_text())
+
+    def test_failed_sources_preserve_all_topic_pages(self) -> None:
+        self.topic_fixture(["agents"])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "README.md"
+            self.refresh_fixture(path)
+            pages = path.parent / "topics"
+            self.assertTrue(pages.is_dir(), "topic pages missing")
+            before = {p: p.read_bytes() for p in [path, *pages.iterdir()]}
+            for status, body in [
+                (503, b"failed"),
+                (200, b"<broken"),
+                (200, b"<html/>"),
+            ]:
+                self.responses["/feed"] = (status, body, {})
+                with (
+                    self.subTest(status=status, body=body),
+                    self.assertRaises(Exception),
+                ):
+                    self.refresh_fixture(path)
+                self.assertEqual(
+                    before, {p: p.read_bytes() for p in [path, *pages.iterdir()]}
+                )
 
     def test_http_failure_reports_status_without_retaining_open_response(self) -> None:
         self.responses["/failure"] = (503, b"unavailable", {})

@@ -1,3 +1,13 @@
+```text
+░▒▓███████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓██████▓▒░
+       ░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+       ░▒▓█▓▒░      ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░
+ ░▒▓██████▓▒░░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓███████▓▒░
+░▒▓█▓▒░             ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░
+░▒▓█▓▒░             ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░
+░▒▓████████▓▒░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓██████▓▒░
+```
+
 # 2389 Research
 
 We're an applied AI lab in Chicago. We build tools for agents, share our research, and help engineering teams work with coding agents.
@@ -48,6 +58,12 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. — 14 stars
 - [summarize\-meetings](https://github.com/2389-research/summarize-meetings) — Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction — 13 stars
 - [review\-squad](https://github.com/2389-research/review-squad) — Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks — 12 stars
+
+## Topics
+
+Most-used topics, with public repository counts.
+
+**[ai\-agents (55)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/ai-agents.md)** · **[claude\-code (39)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/claude-code.md)** · **[claude (32)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/claude.md)** · **[anthropic (29)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/anthropic.md)** · **[automation (29)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/automation.md)** · **[claude\-code\-skills (29)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/claude-code-skills.md)** · [go (27)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/go.md) · [llm (14)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/llm.md) · [mcp (14)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/mcp.md) · [rust (14)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/rust.md) · [cli (13)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/cli.md) · [python (12)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/python.md) · [tui (8)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/tui.md) · [developer\-tools (7)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/developer-tools.md) · [swift (7)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/swift.md) · [workflow (6)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/workflow.md) · [ai\-agent (5)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/ai-agent.md) · [graphviz (5)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/graphviz.md) · [mcp\-server (5)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/mcp-server.md) · [model\-context\-protocol (5)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/model-context-protocol.md) · [multi\-agent (5)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/multi-agent.md) · [typescript (5)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/typescript.md) · [agentic (4)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/agentic.md) · [ai\-assistant (4)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/ai-assistant.md) · [grpc (4)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/grpc.md) · [macos (4)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/macos.md) · [markdown (4)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/markdown.md) · [mqtt (4)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/mqtt.md) · [orchestration (4)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/orchestration.md) · [documentation (3)](https://github.com/2389-research/.github/blob/HEAD/profile/topics/documentation.md)
 
 ## Repository directory
 

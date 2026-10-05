@@ -8,6 +8,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from urllib.parse import unquote
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,11 +22,15 @@ class LiveProfileTests(unittest.TestCase):
             headers["Authorization"] = f"Bearer {token}"
         url = "https://api.github.com/orgs/2389-research/repos?type=public&per_page=100"
         names: set[str] = set()
+        topic_members: dict[str, set[str]] = {}
         while url:
             with urlopen(Request(url, headers=headers), timeout=30) as response:
-                names.update(
-                    repo["name"] for repo in json.load(response) if not repo["private"]
-                )
+                for repository in json.load(response):
+                    if repository["private"]:
+                        continue
+                    names.add(repository["name"])
+                    for topic in set(repository["topics"]):
+                        topic_members.setdefault(topic, set()).add(repository["name"])
                 next_page = re.search(
                     r'<([^>]+)>;\s*rel="next"', response.headers.get("Link", "")
                 )
@@ -73,6 +78,41 @@ class LiveProfileTests(unittest.TestCase):
                 ranking,
                 sorted(ranking, key=lambda row: (-row[1], row[0].casefold(), row[0])),
             )
+            cloud = content.split("## Topics")[1].split("## ")[0]
+            targets = re.findall(r"blob/HEAD/profile/topics/([^)]*)", cloud)
+            expected_topics = sorted(
+                topic_members,
+                key=lambda topic: (-len(topic_members[topic]), topic.casefold(), topic),
+            )[:30]
+            self.assertEqual(
+                [unquote(unquote(target)[:-3]) for target in targets], expected_topics
+            )
+            topic_directory = output.parent / "topics"
+            self.assertEqual(
+                {page.name for page in topic_directory.iterdir()},
+                {unquote(target) for target in targets},
+            )
+            for target in targets:
+                filename = unquote(target)
+                topic = unquote(filename[:-3])
+                page = (topic_directory / filename).read_text()
+                self.assertIn("| Name | Description | Stars |", page)
+                self.assertIn(f"{len(topic_members[topic])} public repositories", page)
+                members = re.findall(
+                    r"^\| \[.*?\]\(https://github.com/2389-research/([^)]*)\)"
+                    r".* \| (\d+) \|$",
+                    page,
+                    re.MULTILINE,
+                )
+                self.assertEqual({name for name, _ in members}, topic_members[topic])
+                self.assertEqual(len(members), len(topic_members[topic]))
+                ranking = [(name, int(count)) for name, count in members]
+                self.assertEqual(
+                    ranking,
+                    sorted(
+                        ranking, key=lambda row: (-row[1], row[0].casefold(), row[0])
+                    ),
+                )
             releases = content.split("## Latest releases")[1].split("## ")[0]
             self.assertIn("/releases/tag/", releases)
             self.assertGreater(releases.count("- ["), 0)
