@@ -49,7 +49,8 @@ class LiveProfileTests(unittest.TestCase):
             self.assertEqual(result.stderr, "")
             content = output.read_text()
             directory_section = content.split("<details>")[1]
-            self.assertEqual(directory_section.count("- ["), len(names))
+            self.assertIn("| Name | Description | Topics |", directory_section)
+            self.assertEqual(directory_section.count("| ["), len(names))
             for name in names:
                 self.assertIn(
                     f"](https://github.com/2389-research/{name})", directory_section
@@ -76,6 +77,12 @@ class LiveProfileTests(unittest.TestCase):
             self.assertIn("/releases/tag/", releases)
             self.assertGreater(releases.count("- ["), 0)
             self.assertLessEqual(releases.count("- ["), 10)
+            release_projects = re.findall(
+                r"\]\(https://github.com/2389-research/([^/]+)/releases/tag/", releases
+            )
+            self.assertEqual(len(release_projects), releases.count("- ["))
+            self.assertEqual(len(set(release_projects)), len(release_projects))
+            self.assertTrue(set(release_projects).issubset(names))
             research = content.split("## Latest research")[1].split("## ")[0]
             self.assertIn("https://2389.ai/research/", research)
             self.assertGreater(research.count("- ["), 0)

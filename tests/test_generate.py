@@ -29,6 +29,7 @@ def repo(name: str, **fields: Any) -> dict[str, Any]:
         "fork": False,
         "pushed_at": "2026-01-01T00:00:00Z",
         "stargazers_count": 0,
+        "topics": [],
         **fields,
     }
 
@@ -77,6 +78,57 @@ class RenderingTests(unittest.TestCase):
         self.assertIn("archived", directory)
         self.assertIn("fork", directory)
         self.assertNotIn("private", directory)
+        self.assertIn("| Name | Description | Topics |\n| --- | --- | --- |", directory)
+        self.assertEqual(directory.count("| ["), 2)
+        self.assertIn(
+            "| [Alpha](https://github.com/2389-research/Alpha) (fork) "
+            "| Useful code | — |",
+            directory,
+        )
+        self.assertIn(
+            "| [zeta](https://github.com/2389-research/zeta) (archived) "
+            "| Useful code | — |",
+            directory,
+        )
+
+    def test_directory_table_escapes_cells_and_sorts_topics(self) -> None:
+        repos = generate.parse_repositories(
+            [
+                repo(
+                    "a|b",
+                    description="Code | tools\nwith <markup>",
+                    topics=["z|topic", "Beta", "alpha\nagent"],
+                    archived=True,
+                    fork=True,
+                ),
+                repo("empty", description=None),
+                repo("blank", description="  \n"),
+            ]
+        )
+        directory = generate.render_profile(repos, [], []).split("<details>")[1]
+        self.assertIn(
+            r"| [a\|b](https://github.com/2389-research/a%7Cb) (archived, fork) "
+            r"| Code \| tools with &lt;markup&gt; | alpha agent, Beta, z\|topic |",
+            directory,
+        )
+        for name in ["empty", "blank"]:
+            self.assertIn(
+                f"| [{name}](https://github.com/2389-research/{name}) | — | — |",
+                directory,
+            )
+        self.assertEqual(directory.count("| ["), 3)
+
+    def test_repository_topics_must_be_a_list_of_strings(self) -> None:
+        for topics in [None, "agent", ["agent", 1], {"agent": True}]:
+            with (
+                self.subTest(topics=topics),
+                self.assertRaisesRegex(ValueError, "topics"),
+            ):
+                generate.parse_repositories([repo("alpha", topics=topics)])
+        record = repo("alpha")
+        del record["topics"]
+        with self.assertRaisesRegex(ValueError, "topics"):
+            generate.parse_repositories([record])
 
     def test_top_starred_ranks_numerically_limits_to_ten_and_breaks_ties(self) -> None:
         records = [repo(f"repo-{n}", stargazers_count=n) for n in range(10)]
@@ -167,18 +219,77 @@ class RenderingTests(unittest.TestCase):
             release(f"v{n}", published_at=f"2026-01-{n:02}T00:00:00Z")
             for n in range(1, 13)
         ]
-        releases += [release("draft", draft=True, published_at=None)]
+        releases += [
+            release("draft", draft=True, published_at=None),
+            release("v99", created_at="2026-02-01T00:00:00Z"),
+        ]
         releases[11]["prerelease"] = True
         parsed = generate.parse_releases("alpha", releases)
         output = generate.render_profile([], parsed, [])
         section = output.split("## Latest releases")[1].split("## ")[0]
-        self.assertEqual(section.count("- ["), 10)
-        self.assertLess(section.index("v12"), section.index("v11"))
+        self.assertEqual(section.count("- ["), 1)
         self.assertIn("prerelease", section)
         self.assertIn("2026-01-12", section)
         self.assertIn("/releases/tag/v12", section)
         self.assertNotIn("draft", section)
         self.assertNotIn("v1]", section)
+        self.assertNotIn("v11", section)
+        self.assertNotIn("v99", section)
+
+    def test_releases_limit_to_ten_projects_after_selecting_each_latest(self) -> None:
+        releases = generate.parse_releases(
+            "alpha",
+            [
+                release(f"v{n}", published_at=f"2026-02-{n:02}T00:00:00Z")
+                for n in range(1, 13)
+            ],
+        )
+        for n in range(1, 12):
+            releases.extend(
+                generate.parse_releases(
+                    f"repo-{n}",
+                    [release("v1", published_at=f"2026-01-{n:02}T00:00:00Z")],
+                )
+            )
+        section = (
+            generate.render_profile([], releases, [])
+            .split("## Latest releases")[1]
+            .split("## ")[0]
+        )
+        projects = [
+            line.split("[", 1)[1].split(":", 1)[0]
+            for line in section.splitlines()
+            if line.startswith("- [")
+        ]
+        self.assertEqual(
+            projects, ["alpha", *[rf"repo\-{n}" for n in range(11, 2, -1)]]
+        )
+        self.assertIn("alpha: v12", section)
+
+    def test_release_selection_preserves_timezone_order_and_stable_ties(self) -> None:
+        releases = generate.parse_releases(
+            "alpha",
+            [
+                release("v2"),
+                release("v1", html_url="https://example.com/b"),
+                release("v1", html_url="https://example.com/a"),
+            ],
+        )
+        releases += generate.parse_releases("Beta", [release("v1")])
+        releases += generate.parse_releases(
+            "zeta", [release("v1", published_at="2026-01-01T01:00:00+02:00")]
+        )
+        output = generate.render_profile([], releases, [])
+        self.assertEqual(
+            output, generate.render_profile([], list(reversed(releases)), [])
+        )
+        section = output.split("## Latest releases")[1].split("## ")[0]
+        self.assertEqual(section.count("- ["), 3)
+        self.assertLess(section.index("alpha"), section.index("Beta"))
+        self.assertLess(section.index("Beta"), section.index("zeta"))
+        self.assertIn("https://example.com/a", section)
+        self.assertNotIn("https://example.com/b", section)
+        self.assertNotIn("v2", section)
 
     def test_feed_sorts_actual_dates_and_keeps_five(self) -> None:
         data = rss(
@@ -319,12 +430,25 @@ class HttpTests(unittest.TestCase):
             [release("v1")],
             Link=f'<{self.base}/releases2>; rel="next"',
         )
-        self.respond("/releases2", [release("v2")])
+        self.respond(
+            "/releases2",
+            [
+                release("v2", published_at="2026-01-02T00:00:00Z"),
+                release("v3", published_at="2025-12-31T00:00:00Z"),
+            ],
+        )
         repos, releases, posts = generate.collect(
             api_url=self.base, feed_url=f"{self.base}/feed", token="fixture-token"
         )
         self.assertEqual([r.name for r in repos], ["alpha", "beta"])
-        self.assertEqual([r.tag for r in releases], ["v1", "v2"])
+        self.assertEqual([r.tag for r in releases], ["v1", "v2", "v3"])
+        section = (
+            generate.render_profile(repos, releases, posts)
+            .split("## Latest releases")[1]
+            .split("## ")[0]
+        )
+        self.assertEqual(section.count("- ["), 1)
+        self.assertIn("/releases/tag/v2", section)
         self.assertEqual(posts[0].title, "research")
         self.assertIn(("/feed", None), self.requests)
         self.assertTrue(
@@ -375,7 +499,13 @@ class HttpTests(unittest.TestCase):
         self.respond(
             "/page2",
             [
-                repo("beta", stargazers_count=100, archived=True, fork=True),
+                repo(
+                    "beta",
+                    stargazers_count=100,
+                    archived=True,
+                    fork=True,
+                    topics=["tools", "agents"],
+                ),
                 repo("secret", private=True, stargazers_count=999),
             ],
         )
@@ -390,6 +520,11 @@ class HttpTests(unittest.TestCase):
         self.assertIn("(archived, fork) — Useful code — 100 stars", section)
         self.assertIn("Useful code — 9 stars", section)
         self.assertNotIn("secret", output)
+        directory_section = output.split("<details>")[1]
+        self.assertEqual(directory_section.count("| ["), 2)
+        self.assertIn(
+            "(archived, fork) | Useful code | agents, tools |", directory_section
+        )
         self.assertEqual(len(self.requests), 5)
 
     def test_http_failure_reports_status_without_retaining_open_response(self) -> None:

@@ -8,14 +8,17 @@ change its layout or introduction.
 
 - Eight recently pushed, active public repos, ordered by `pushed_at`. The profile
   repository is excluded from this section to avoid promoting its own refreshes.
-- Ten most recently published GitHub Releases across all public repos. Drafts
-  are excluded; prereleases are labeled. Git tags without a release do not appear.
+- The latest published GitHub Release from each of the ten most recently released
+  projects. Drafts are excluded; prereleases are labeled. Git tags without a release
+  do not appear.
 - Five latest posts from [the writing RSS feed](https://2389.ai/research/writing/index.xml).
 - Ten public repos with the most stars, with counts, descriptions, and fork/archive
   labels. Ties sort alphabetically, ignoring case first. All public repos qualify;
   star counts come from the existing repository requests.
-- An alphabetical, expandable directory of **every public repo**, including
-  forks and archived projects. Repository and release requests fetch all pages.
+- An alphabetical, expandable table of **every public repo**, with names,
+  descriptions, and alphabetized topics. Forks and archived projects keep their
+  labels. Empty descriptions and topic lists display an em dash. Topics come from
+  the existing repository responses. Repository and release requests fetch all pages.
 
 Dates use UTC. Descriptions come from GitHub; update a repository's description
 there to change its listing. The company links and introduction live in the

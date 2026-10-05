@@ -32,6 +32,7 @@ class Repository:
     fork: bool
     pushed: datetime | None
     stars: int
+    topics: list[str]
 
 
 @dataclass(frozen=True)
@@ -90,6 +91,11 @@ def parse_repositories(records: list[dict[str, Any]]) -> list[Repository]:
         stars = record.get("stargazers_count")
         if type(stars) is not int or stars < 0:
             raise ValueError("Missing or invalid stargazers_count")
+        topics = record.get("topics")
+        if not isinstance(topics, list) or any(
+            not isinstance(topic, str) for topic in topics
+        ):
+            raise ValueError("Missing or invalid topics")
         repositories.append(
             Repository(
                 text_field(record, "name"),
@@ -101,6 +107,7 @@ def parse_repositories(records: list[dict[str, Any]]) -> list[Repository]:
                 if record.get("pushed_at") is not None
                 else None,
                 stars,
+                topics,
             )
         )
     return repositories
@@ -213,8 +220,8 @@ def markdown(value: str) -> str:
     return re.sub(r"([\\`*_{}\[\]()#+.!|~-])", r"\\\1", value)
 
 
-def repository_line(repository: Repository) -> str:
-    line = f"- [{markdown(repository.name)}]({repository.url})"
+def repository_name(repository: Repository) -> str:
+    line = f"[{markdown(repository.name)}]({repository.url})"
     labels = []
     if repository.archived:
         labels.append("archived")
@@ -222,6 +229,11 @@ def repository_line(repository: Repository) -> str:
         labels.append("fork")
     if labels:
         line += f" ({', '.join(labels)})"
+    return line
+
+
+def repository_line(repository: Repository) -> str:
+    line = f"- {repository_name(repository)}"
     if repository.description:
         line += f" — {markdown(repository.description)}"
     return line
@@ -268,7 +280,11 @@ def render_profile(
         releases,
         key=lambda r: (-r.published.timestamp(), r.repository.casefold(), r.tag, r.url),
     )
-    for release in ordered_releases[:10]:
+    released_projects: set[str] = set()
+    for release in ordered_releases:
+        if release.repository in released_projects:
+            continue
+        released_projects.add(release.repository)
         title = f"{release.repository}: {release.tag}"
         if release.title != release.tag:
             title += f" — {release.title}"
@@ -277,6 +293,8 @@ def render_profile(
         lines.append(
             f"- [{title}]({release.url}) — {release.published:%Y-%m-%d}{label}"
         )
+        if len(released_projects) == 10:
+            break
     if not releases:
         lines.append("No published releases yet.")
     lines.extend(["", "## Latest research", ""])
@@ -305,12 +323,21 @@ def render_profile(
             "<details>",
             f"<summary>Browse all {len(repositories)} public repositories</summary>",
             "",
+            "| Name | Description | Topics |",
+            "| --- | --- | --- |",
         ]
     )
-    lines.extend(
-        repository_line(repo)
-        for repo in sorted(repositories, key=lambda r: (r.name.casefold(), r.name))
-    )
+    for repo in sorted(repositories, key=lambda r: (r.name.casefold(), r.name)):
+        topics = ", ".join(
+            markdown(topic)
+            for topic in sorted(
+                repo.topics, key=lambda topic: (topic.casefold(), topic)
+            )
+        )
+        lines.append(
+            f"| {repository_name(repo)} | {markdown(repo.description) or '—'} "
+            f"| {topics or '—'} |"
+        )
     lines.extend(
         [
             "",
