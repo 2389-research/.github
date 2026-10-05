@@ -6,18 +6,18 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-05
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-05
+- [mux](https://github.com/2389-research/mux) — Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. — pushed 2026-10-05
+- [observatory](https://github.com/2389-research/observatory) — Run several Firecracker microVMs on one Linux host and watch what happens inside them\. Agent\-first HTTP API, browser terminals, durable event history\. — pushed 2026-10-05
 - [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-10-04
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-04
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-04
 - [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-03
-- [observatory](https://github.com/2389-research/observatory) — Run several Firecracker microVMs on one Linux host and watch what happens inside them\. Agent\-first HTTP API, browser terminals, durable event history\. — pushed 2026-10-01
 - [orrery](https://github.com/2389-research/orrery) — Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. — pushed 2026-09-30
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-09-30
-- [coven](https://github.com/2389-research/coven) — Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming — pushed 2026-09-29
 
 ## Latest releases
 
-- [tracker: v0\.77\.0](https://github.com/2389-research/tracker/releases/tag/v0.77.0) — 2026-10-04
+- [tracker: v0\.77\.1](https://github.com/2389-research/tracker/releases/tag/v0.77.1) — 2026-10-05
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
 - [dippin\-lang: v0\.76\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.76.0) — 2026-09-18
 - [observatory: guest\-images\-6\.1\.186](https://github.com/2389-research/observatory/releases/tag/guest-images-6.1.186) — 2026-09-07
