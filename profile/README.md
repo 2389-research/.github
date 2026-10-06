@@ -16,14 +16,14 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-06
+- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-05
+- [coven](https://github.com/2389-research/coven) — Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming — pushed 2026-10-05
 - [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-05
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-05
 - [mux](https://github.com/2389-research/mux) — Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. — pushed 2026-10-05
 - [observatory](https://github.com/2389-research/observatory) — Run several Firecracker microVMs on one Linux host and watch what happens inside them\. Agent\-first HTTP API, browser terminals, durable event history\. — pushed 2026-10-05
 - [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-10-04
-- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-03
 - [orrery](https://github.com/2389-research/orrery) — Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. — pushed 2026-09-30
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-09-30
 
 ## Latest releases
 
