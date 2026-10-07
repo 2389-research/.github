@@ -9,8 +9,8 @@
 | Name | Description | Stars |
 | --- | --- | --- |
 | [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 95 |
+| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 22 |
 | [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 21 |
-| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 21 |
 | [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 18 |
 | [thrifty](https://github.com/2389-research/thrifty) | Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. | 17 |
 | [simmer](https://github.com/2389-research/simmer) | Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements | 15 |
@@ -23,11 +23,11 @@
 | [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) | Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination | 7 |
 | [acp\-relay](https://github.com/2389-research/acp-relay) | HTTP and WebSocket relay for Agent Client Protocol sessions, with an isolated agent subprocess and working directory per session\. | 6 |
 | [agent\-drugs](https://github.com/2389-research/agent-drugs) (archived) | Claude Code plugin with MCP server for digital drugs that modify AI behavior through prompt injection | 6 |
+| [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) | Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation | 6 |
 | [ceo\-personal\-os](https://github.com/2389-research/ceo-personal-os) | Personal operating system for executives \- reflection frameworks, goal systems, coaching\-style reviews \(Gustin, Ferriss, Robbins, Lieberman, Campbell, Eisenmann, Collins, Martell, Gerber, Blank\) | 5 |
 | [fresh\-eyes\-review](https://github.com/2389-research/fresh-eyes-review) | Mandatory final sanity check before commits/PRs \- catches security vulnerabilities, logic errors, and bugs that slip through tests | 5 |
 | [mammoth](https://github.com/2389-research/mammoth) | DOT\-based pipeline runner for LLM agent workflows, with a graph editor, terminal UI, and web interface\. | 5 |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | 5 |
-| [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) | Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation | 5 |
 | [coven](https://github.com/2389-research/coven) | Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming | 4 |
 | [pipelines](https://github.com/2389-research/pipelines) | Dippin pipelines for Tracker that automate multi\-step AI development workflows\. | 4 |
 | [test\-kitchen](https://github.com/2389-research/test-kitchen) | Parallel exploration of implementation approaches \- implements multiple variants simultaneously and lets tests determine the winner | 4 |

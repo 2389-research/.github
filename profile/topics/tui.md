@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 21 |
+| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 22 |
 | [boba](https://github.com/2389-research/boba) | A Bubble Tea\-inspired TUI framework for Rust, built on ratatui | 5 |
 | [soloclaw](https://github.com/2389-research/soloclaw) | Terminal AI agent with a streaming interface, extensible tools, and layered tool approval, built in Rust\. | 2 |
 | [turtle](https://github.com/2389-research/turtle) | TUI app teaching terminal &amp; tmux through gamified spaced\-repetition microlearning | 2 |

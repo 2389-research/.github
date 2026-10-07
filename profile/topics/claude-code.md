@@ -22,9 +22,9 @@
 | [deliberation](https://github.com/2389-research/deliberation) | Decision\-making through deliberation \- seeking unity through discernment rather than consensus through debate | 8 |
 | [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) | Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination | 7 |
 | [agent\-drugs](https://github.com/2389-research/agent-drugs) (archived) | Claude Code plugin with MCP server for digital drugs that modify AI behavior through prompt injection | 6 |
+| [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) | Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation | 6 |
 | [ceo\-personal\-os](https://github.com/2389-research/ceo-personal-os) | Personal operating system for executives \- reflection frameworks, goal systems, coaching\-style reviews \(Gustin, Ferriss, Robbins, Lieberman, Campbell, Eisenmann, Collins, Martell, Gerber, Blank\) | 5 |
 | [fresh\-eyes\-review](https://github.com/2389-research/fresh-eyes-review) | Mandatory final sanity check before commits/PRs \- catches security vulnerabilities, logic errors, and bugs that slip through tests | 5 |
-| [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) | Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation | 5 |
 | [test\-kitchen](https://github.com/2389-research/test-kitchen) | Parallel exploration of implementation approaches \- implements multiple variants simultaneously and lets tests determine the winner | 4 |
 | [jam](https://github.com/2389-research/jam) | Claude Code plugin that explores, builds, and reviews competing approaches with parallel agents, then combines their strongest ideas\. | 3 |
 | [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 3 |
