@@ -9,7 +9,7 @@
 | Name | Description | Stars |
 | --- | --- | --- |
 | [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 21 |
-| [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 18 |
+| [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 19 |
 | [simmer](https://github.com/2389-research/simmer) | Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements | 15 |
 | [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) | MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. | 14 |
 | [summarize\-meetings](https://github.com/2389-research/summarize-meetings) | Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction | 13 |
