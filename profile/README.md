@@ -16,10 +16,10 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-07
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-08
+- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-08
 - [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-10-07
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-07
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-06
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-06
 - [coven](https://github.com/2389-research/coven) — Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming — pushed 2026-10-05
 - [mux](https://github.com/2389-research/mux) — Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. — pushed 2026-10-05
@@ -27,6 +27,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Latest releases
 
+- [ccvault: v0\.3\.0](https://github.com/2389-research/ccvault/releases/tag/v0.3.0) — 2026-10-08
 - [tracker: v0\.78\.0](https://github.com/2389-research/tracker/releases/tag/v0.78.0) — 2026-10-06
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
 - [dippin\-lang: v0\.76\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.76.0) — 2026-09-18
@@ -36,7 +37,6 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [orrery: v0\.5\.2 — Noospheric v0\.5\.2](https://github.com/2389-research/orrery/releases/tag/v0.5.2) — 2026-08-10
 - [Quoin: v1\.3\.0\-rc\.7 — Quoin v1\.3\.0\-rc\.7](https://github.com/2389-research/Quoin/releases/tag/v1.3.0-rc.7) — 2026-07-22 · prerelease
 - [Vinculum: v2\.1\.0 — 2\.1\.0 — Math\-feature expansion](https://github.com/2389-research/Vinculum/releases/tag/v2.1.0) — 2026-07-21
-- [MermaidKit: v2\.2\.0 — v2\.2\.0 — Any source format, inline and narrated](https://github.com/2389-research/MermaidKit/releases/tag/v2.2.0) — 2026-07-21
 
 ## Latest research
 
