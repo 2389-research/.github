@@ -9,7 +9,7 @@
 | Name | Description | Stars |
 | --- | --- | --- |
 | [review\-squad](https://github.com/2389-research/review-squad) | Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks | 12 |
+| [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) | Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination | 8 |
 | [deliberation](https://github.com/2389-research/deliberation) | Decision\-making through deliberation \- seeking unity through discernment rather than consensus through debate | 8 |
-| [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) | Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination | 7 |
 | [jam](https://github.com/2389-research/jam) | Claude Code plugin that explores, builds, and reviews competing approaches with parallel agents, then combines their strongest ideas\. | 3 |
 | [shell\-scenario\-panel](https://github.com/2389-research/shell-scenario-panel) (fork) | Claude Code\-powered Shell scenario planning system with multi\-specialist consultation | 0 |

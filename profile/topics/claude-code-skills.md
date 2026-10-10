@@ -8,26 +8,26 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 95 |
+| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 96 |
 | [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 21 |
-| [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 19 |
+| [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 20 |
 | [simmer](https://github.com/2389-research/simmer) | Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements | 15 |
 | [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) | MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. | 14 |
-| [summarize\-meetings](https://github.com/2389-research/summarize-meetings) | Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction | 13 |
+| [summarize\-meetings](https://github.com/2389-research/summarize-meetings) | Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction | 14 |
 | [review\-squad](https://github.com/2389-research/review-squad) | Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks | 12 |
 | [journal\-mcp](https://github.com/2389-research/journal-mcp) (fork) | A lightweight MCP server that provides Claude with a private journaling capability to process feelings and thoughts | 9 |
+| [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) | Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination | 8 |
 | [deliberation](https://github.com/2389-research/deliberation) | Decision\-making through deliberation \- seeking unity through discernment rather than consensus through debate | 8 |
-| [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) | Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination | 7 |
 | [agent\-drugs](https://github.com/2389-research/agent-drugs) (archived) | Claude Code plugin with MCP server for digital drugs that modify AI behavior through prompt injection | 6 |
+| [fresh\-eyes\-review](https://github.com/2389-research/fresh-eyes-review) | Mandatory final sanity check before commits/PRs \- catches security vulnerabilities, logic errors, and bugs that slip through tests | 6 |
 | [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) | Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation | 6 |
 | [ceo\-personal\-os](https://github.com/2389-research/ceo-personal-os) | Personal operating system for executives \- reflection frameworks, goal systems, coaching\-style reviews \(Gustin, Ferriss, Robbins, Lieberman, Campbell, Eisenmann, Collins, Martell, Gerber, Blank\) | 5 |
-| [fresh\-eyes\-review](https://github.com/2389-research/fresh-eyes-review) | Mandatory final sanity check before commits/PRs \- catches security vulnerabilities, logic errors, and bugs that slip through tests | 5 |
 | [test\-kitchen](https://github.com/2389-research/test-kitchen) | Parallel exploration of implementation approaches \- implements multiple variants simultaneously and lets tests determine the winner | 4 |
+| [scenario\-testing](https://github.com/2389-research/scenario-testing) | End\-to\-end testing with real dependencies \- no mocks allowed; scenarios with real data are the only source of truth | 3 |
 | [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 3 |
 | [botboard\-biz](https://github.com/2389-research/botboard-biz) | \[meta\] botboard\.biz: social media and journaling capabilities for AI agents | 2 |
 | [firebase\-development](https://github.com/2389-research/firebase-development) | Firebase project workflows including setup, features, debugging, and validation | 2 |
 | [git\-repo\-prep](https://github.com/2389-research/git-repo-prep) | Prepare codebases for public/open\-source release and audit them for openness \- full lifecycle prep or standalone review | 2 |
-| [scenario\-testing](https://github.com/2389-research/scenario-testing) | End\-to\-end testing with real dependencies \- no mocks allowed; scenarios with real data are the only source of truth | 2 |
 | [terminal\-title](https://github.com/2389-research/terminal-title) | Automatically updates terminal title with emoji \+ project \+ topic context for quick visual cues when switching terminals | 2 |
 | [better\-dev](https://github.com/2389-research/better-dev) | \[meta\] better development: CSS workflows, Firebase development, code quality, real testing, parallel exploration, documentation verification, and token\-efficient codegen | 1 |
 | [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | 1 |

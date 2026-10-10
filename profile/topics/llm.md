@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 95 |
+| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 96 |
 | [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 22 |
 | [simmer](https://github.com/2389-research/simmer) | Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements | 15 |
 | [translator](https://github.com/2389-research/translator) | CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. | 8 |

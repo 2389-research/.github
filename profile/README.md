@@ -16,19 +16,19 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-08
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-09
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-09
+- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-09
 - [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-08
 - [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-10-07
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-07
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-06
 - [coven](https://github.com/2389-research/coven) — Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming — pushed 2026-10-05
 - [mux](https://github.com/2389-research/mux) — Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. — pushed 2026-10-05
-- [observatory](https://github.com/2389-research/observatory) — Run several Firecracker microVMs on one Linux host and watch what happens inside them\. Agent\-first HTTP API, browser terminals, durable event history\. — pushed 2026-10-05
 
 ## Latest releases
 
+- [tracker: v0\.78\.1](https://github.com/2389-research/tracker/releases/tag/v0.78.1) — 2026-10-09
 - [ccvault: v0\.3\.0](https://github.com/2389-research/ccvault/releases/tag/v0.3.0) — 2026-10-08
-- [tracker: v0\.78\.0](https://github.com/2389-research/tracker/releases/tag/v0.78.0) — 2026-10-06
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
 - [dippin\-lang: v0\.76\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.76.0) — 2026-09-18
 - [observatory: guest\-images\-6\.1\.186](https://github.com/2389-research/observatory/releases/tag/guest-images-6.1.186) — 2026-09-07
@@ -48,15 +48,15 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Top starred repos
 
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 95 stars
-- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 32 stars
+- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 96 stars
+- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 33 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 22 stars
 - [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 21 stars
-- [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 19 stars
+- [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 20 stars
 - [thrifty](https://github.com/2389-research/thrifty) — Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. — 17 stars
 - [simmer](https://github.com/2389-research/simmer) — Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements — 15 stars
 - [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. — 14 stars
-- [summarize\-meetings](https://github.com/2389-research/summarize-meetings) — Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction — 13 stars
+- [summarize\-meetings](https://github.com/2389-research/summarize-meetings) — Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction — 14 stars
 - [review\-squad](https://github.com/2389-research/review-squad) — Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks — 12 stars
 
 ## Topics

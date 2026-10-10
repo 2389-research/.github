@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [orrery](https://github.com/2389-research/orrery) | Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. | 8 |
+| [orrery](https://github.com/2389-research/orrery) | Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. | 9 |
 | [translator](https://github.com/2389-research/translator) | CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. | 8 |
 | [phonegang](https://github.com/2389-research/phonegang) | CLI, Python API, and MCP server for automating Android phones over USB using accessibility trees\. | 3 |
 | [workchat\-mcp](https://github.com/2389-research/workchat-mcp) | Team chat application with channels, threaded conversations, search, and MCP access for AI assistants\. | 2 |

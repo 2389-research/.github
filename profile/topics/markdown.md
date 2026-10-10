@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [Quoin](https://github.com/2389-research/Quoin) | A native macOS WYSIWYG Markdown editor with an in\-file review loop — suggestions, comments, and tracked changes as plain CriticMarkup bytes\. Native LaTeX math \(Vinculum\) and diagrams \(MermaidKit\), zero JavaScript, byte\-lossless, local\-only\. | 10 |
+| [Quoin](https://github.com/2389-research/Quoin) | A native macOS WYSIWYG Markdown editor with an in\-file review loop — suggestions, comments, and tracked changes as plain CriticMarkup bytes\. Native LaTeX math \(Vinculum\) and diagrams \(MermaidKit\), zero JavaScript, byte\-lossless, local\-only\. | 11 |
 | [translator](https://github.com/2389-research/translator) | CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. | 8 |
 | [documentation\-audit](https://github.com/2389-research/documentation-audit) | Verify documentation claims against codebase reality \- two\-pass extraction with pattern expansion for comprehensive drift detection | 1 |
 | [mdstore](https://github.com/2389-research/mdstore) | Shared Go library for file\-based markdown storage with YAML frontmatter | 0 |

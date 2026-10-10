@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 95 |
+| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 96 |
 | [review\-squad](https://github.com/2389-research/review-squad) | Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks | 12 |
+| [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) | Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination | 8 |
 | [deliberation](https://github.com/2389-research/deliberation) | Decision\-making through deliberation \- seeking unity through discernment rather than consensus through debate | 8 |
-| [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) | Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination | 7 |

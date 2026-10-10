@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [dippin\-lang](https://github.com/2389-research/dippin-lang) | Dippin: a DSL for authoring AI pipeline workflows | 32 |
+| [dippin\-lang](https://github.com/2389-research/dippin-lang) | Dippin: a DSL for authoring AI pipeline workflows | 33 |
 | [dotpowers](https://github.com/2389-research/dotpowers) | DOT pipeline for brainstorming, planning, TDD implementation, and multi\-model code review on Attractor\-compatible runners\. | 9 |
 | [mammoth](https://github.com/2389-research/mammoth) | DOT\-based pipeline runner for LLM agent workflows, with a graph editor, terminal UI, and web interface\. | 5 |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | 5 |

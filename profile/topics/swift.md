@@ -8,8 +8,8 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [Quoin](https://github.com/2389-research/Quoin) | A native macOS WYSIWYG Markdown editor with an in\-file review loop — suggestions, comments, and tracked changes as plain CriticMarkup bytes\. Native LaTeX math \(Vinculum\) and diagrams \(MermaidKit\), zero JavaScript, byte\-lossless, local\-only\. | 10 |
-| [MermaidKit](https://github.com/2389-research/MermaidKit) | Native Mermaid diagrams in Swift — all 30 types, CoreGraphics on Apple and Silica/Cairo on Linux\. No JavaScript, no WebView, zero dependencies\. | 9 |
+| [Quoin](https://github.com/2389-research/Quoin) | A native macOS WYSIWYG Markdown editor with an in\-file review loop — suggestions, comments, and tracked changes as plain CriticMarkup bytes\. Native LaTeX math \(Vinculum\) and diagrams \(MermaidKit\), zero JavaScript, byte\-lossless, local\-only\. | 11 |
+| [MermaidKit](https://github.com/2389-research/MermaidKit) | Native Mermaid diagrams in Swift — all 30 types, CoreGraphics on Apple and Silica/Cairo on Linux\. No JavaScript, no WebView, zero dependencies\. | 10 |
 | [Vinculum](https://github.com/2389-research/Vinculum) | Native LaTeX math typesetting for Apple platforms and Linux — real glyph shapes, TeX metrics from the font's MATH table, no MathJax, no WebView\. | 3 |
 | [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 3 |
 | [nodelife](https://github.com/2389-research/nodelife) | macOS app that turns Granola meeting transcripts into an interactive knowledge graph of people, projects, and ideas\. | 2 |
