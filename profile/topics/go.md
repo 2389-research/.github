@@ -19,13 +19,13 @@
 | [mux](https://github.com/2389-research/mux) | Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. | 2 |
 | [turtle](https://github.com/2389-research/turtle) | TUI app teaching terminal &amp; tmux through gamified spaced\-repetition microlearning | 2 |
 | [typesafe\-go](https://github.com/2389-research/typesafe-go) | A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the standard library\. | 2 |
+| [fleet\-control](https://github.com/2389-research/fleet-control) | CLI, terminal UI, and API for monitoring AI coding agents in tmux, classifying activity, and recording session history\. | 1 |
 | [gossip](https://github.com/2389-research/gossip) | A watercooler for agents: standalone CLI over an append\-only SQLite event log\. Hearsay by default — labels are rumor and observed; v1 has no verifier, so nothing is verified\. | 1 |
 | [hex](https://github.com/2389-research/hex) | Go CLI for Claude with a streaming terminal interface, persistent conversations, built\-in tools, and MCP integration\. | 1 |
 | [tux](https://github.com/2389-research/tux) | Multi\-language TUI library for multi\-agent terminal interfaces | 1 |
 | [2389\-kiosk\-cli](https://github.com/2389-research/2389-kiosk-cli) | Retro TUI demo suite with 3D effects, starfields, and MQTT message display | 0 |
 | [ccut](https://github.com/2389-research/ccut) | A tiny CLI that shows your Claude Code API usage right in the terminal\. Drop it in your shell prompt or status bar to keep an eye on rate limits\. | 0 |
 | [charm](https://github.com/2389-research/charm) (fork) | Backend tools for terminal apps, with encrypted cloud\-synced storage, user files, and accounts; a fork of Charmbracelet Charm\. | 0 |
-| [fleet\-control](https://github.com/2389-research/fleet-control) | CLI, terminal UI, and API for monitoring AI coding agents in tmux, classifying activity, and recording session history\. | 0 |
 | [ish](https://github.com/2389-research/ish) | Local API testing server that simulates Google, GitHub, Twilio, and other services with authentication flows and persistent data\. | 0 |
 | [judgement](https://github.com/2389-research/judgement) | A Go CLI for TypeSafe Jev judgments, with JSON input/output and optional caching | 0 |
 | [mdstore](https://github.com/2389-research/mdstore) | Shared Go library for file\-based markdown storage with YAML frontmatter | 0 |

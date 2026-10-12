@@ -45,6 +45,7 @@
 | [coven\-openclaw](https://github.com/2389-research/coven-openclaw) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | 1 |
 | [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | 1 |
 | [documentation\-audit](https://github.com/2389-research/documentation-audit) | Verify documentation claims against codebase reality \- two\-pass extraction with pattern expansion for comprehensive drift detection | 1 |
+| [fleet\-control](https://github.com/2389-research/fleet-control) | CLI, terminal UI, and API for monitoring AI coding agents in tmux, classifying activity, and recording session history\. | 1 |
 | [gossip](https://github.com/2389-research/gossip) | A watercooler for agents: standalone CLI over an append\-only SQLite event log\. Hearsay by default — labels are rumor and observed; v1 has no verifier, so nothing is verified\. | 1 |
 | [prbuddy](https://github.com/2389-research/prbuddy) | PR health assistant \- monitors CI, triages review comments, fixes issues with systematic prevention\. Uses gh CLI and gh\-pr\-review extension\. | 1 |
 | [remote\-system\-maintenance](https://github.com/2389-research/remote-system-maintenance) | Structured procedures for Linux system diagnostics and maintenance via SSH/tmux with Ubuntu/Debian cleanup checklists | 1 |
@@ -54,7 +55,6 @@
 | [tux](https://github.com/2389-research/tux) | Multi\-language TUI library for multi\-agent terminal interfaces | 1 |
 | [barnstormer](https://github.com/2389-research/barnstormer) | Collaborative specification builder with AI agents, event\-sourced history, and a live web interface\. | 0 |
 | [coven\-proto](https://github.com/2389-research/coven-proto) | Canonical protobuf definitions for Coven agent\-to\-gateway communication and bidirectional streaming\. | 0 |
-| [fleet\-control](https://github.com/2389-research/fleet-control) | CLI, terminal UI, and API for monitoring AI coding agents in tmux, classifying activity, and recording session history\. | 0 |
 | [mux\-evals](https://github.com/2389-research/mux-evals) | Language\-agnostic eval framework for mux implementations | 0 |
 | [mux\-rs](https://github.com/2389-research/mux-rs) | Rust library for building AI agents with tool support and MCP integration | 0 |
 | [nanoclaw](https://github.com/2389-research/nanoclaw) (fork) | A lightweight alternative to OpenClaw that runs in containers for security\. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK | 0 |
