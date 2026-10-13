@@ -16,9 +16,9 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-12
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-12
 - [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-10-11
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-09
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-09
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-09
 - [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-08
 - [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-10-07
@@ -27,7 +27,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Latest releases
 
-- [tracker: v0\.78\.1](https://github.com/2389-research/tracker/releases/tag/v0.78.1) — 2026-10-09
+- [tracker: v0\.78\.2](https://github.com/2389-research/tracker/releases/tag/v0.78.2) — 2026-10-12
 - [ccvault: v0\.3\.0](https://github.com/2389-research/ccvault/releases/tag/v0.3.0) — 2026-10-08
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
 - [dippin\-lang: v0\.76\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.76.0) — 2026-09-18
