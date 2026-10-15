@@ -16,27 +16,27 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-14
+- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, CoreGraphics on Apple and Silica/Cairo on Linux\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-14
+- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-14
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-14
+- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-14
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-14
-- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-13
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-12
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-12
 - [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-10-11
-- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-09
 - [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-10-07
-- [coven](https://github.com/2389-research/coven) — Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming — pushed 2026-10-05
 
 ## Latest releases
 
+- [MermaidKit: v2\.3\.0 — v2\.3\.0 — Flowcharts as agents write them, on a grid](https://github.com/2389-research/MermaidKit/releases/tag/v2.3.0) — 2026-10-14
+- [dippin\-lang: v0\.78\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.78.0) — 2026-10-14
 - [tracker: v0\.78\.2](https://github.com/2389-research/tracker/releases/tag/v0.78.2) — 2026-10-12
 - [ccvault: v0\.3\.0](https://github.com/2389-research/ccvault/releases/tag/v0.3.0) — 2026-10-08
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
-- [dippin\-lang: v0\.76\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.76.0) — 2026-09-18
 - [observatory: guest\-images\-6\.1\.186](https://github.com/2389-research/observatory/releases/tag/guest-images-6.1.186) — 2026-09-07
 - [pact: v1\.0\.1](https://github.com/2389-research/pact/releases/tag/v1.0.1) — 2026-08-27
 - [pulse: v0\.2\.4](https://github.com/2389-research/pulse/releases/tag/v0.2.4) — 2026-08-12
 - [orrery: v0\.5\.2 — Noospheric v0\.5\.2](https://github.com/2389-research/orrery/releases/tag/v0.5.2) — 2026-08-10
 - [Quoin: v1\.3\.0\-rc\.7 — Quoin v1\.3\.0\-rc\.7](https://github.com/2389-research/Quoin/releases/tag/v1.3.0-rc.7) — 2026-07-22 · prerelease
-- [Vinculum: v2\.1\.0 — 2\.1\.0 — Math\-feature expansion](https://github.com/2389-research/Vinculum/releases/tag/v2.1.0) — 2026-07-21
 
 ## Latest research
 
