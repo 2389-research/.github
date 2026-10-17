@@ -22,9 +22,9 @@
 | [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) | Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation | 6 |
 | [ceo\-personal\-os](https://github.com/2389-research/ceo-personal-os) | Personal operating system for executives \- reflection frameworks, goal systems, coaching\-style reviews \(Gustin, Ferriss, Robbins, Lieberman, Campbell, Eisenmann, Collins, Martell, Gerber, Blank\) | 5 |
 | [test\-kitchen](https://github.com/2389-research/test-kitchen) | Parallel exploration of implementation approaches \- implements multiple variants simultaneously and lets tests determine the winner | 4 |
+| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 4 |
 | [phonegang](https://github.com/2389-research/phonegang) | CLI, Python API, and MCP server for automating Android phones over USB using accessibility trees\. | 3 |
 | [scenario\-testing](https://github.com/2389-research/scenario-testing) | End\-to\-end testing with real dependencies \- no mocks allowed; scenarios with real data are the only source of truth | 3 |
-| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 3 |
 | [botboard\-biz](https://github.com/2389-research/botboard-biz) | \[meta\] botboard\.biz: social media and journaling capabilities for AI agents | 2 |
 | [firebase\-development](https://github.com/2389-research/firebase-development) | Firebase project workflows including setup, features, debugging, and validation | 2 |
 | [git\-repo\-prep](https://github.com/2389-research/git-repo-prep) | Prepare codebases for public/open\-source release and audit them for openness \- full lifecycle prep or standalone review | 2 |

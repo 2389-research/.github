@@ -16,20 +16,20 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-15
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-15
-- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-15
-- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, CoreGraphics on Apple and Silica/Cairo on Linux\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-14
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-16
+- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-16
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-16
+- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-16
+- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-16
 - [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-14
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-14
 - [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-10-11
 - [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-10-07
 
 ## Latest releases
 
-- [tracker: v0\.79\.0](https://github.com/2389-research/tracker/releases/tag/v0.79.0) — 2026-10-15
-- [MermaidKit: v2\.3\.0 — v2\.3\.0 — Flowcharts as agents write them, on a grid](https://github.com/2389-research/MermaidKit/releases/tag/v2.3.0) — 2026-10-14
-- [dippin\-lang: v0\.78\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.78.0) — 2026-10-14
+- [MermaidKit: v2\.4\.0 — v2\.4\.0 — Every flowchart link, every classic shape](https://github.com/2389-research/MermaidKit/releases/tag/v2.4.0) — 2026-10-16
+- [tracker: v0\.80\.0](https://github.com/2389-research/tracker/releases/tag/v0.80.0) — 2026-10-16
+- [dippin\-lang: v0\.79\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.79.0) — 2026-10-16
 - [ccvault: v0\.3\.0](https://github.com/2389-research/ccvault/releases/tag/v0.3.0) — 2026-10-08
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
 - [observatory: guest\-images\-6\.1\.186](https://github.com/2389-research/observatory/releases/tag/guest-images-6.1.186) — 2026-09-07
@@ -134,7 +134,7 @@ Most-used topics, with public repository counts.
 | [mammoth](https://github.com/2389-research/mammoth) | DOT\-based pipeline runner for LLM agent workflows, with a graph editor, terminal UI, and web interface\. | ai\-agents, go, graphviz, llm, workflow |
 | [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) | MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. | ai\-agents, anthropic, automation, claude, claude\-code, claude\-code\-skills, mcp\-server, model\-context\-protocol |
 | [mdstore](https://github.com/2389-research/mdstore) | Shared Go library for file\-based markdown storage with YAML frontmatter | file\-storage, frontmatter, go, markdown |
-| [MermaidKit](https://github.com/2389-research/MermaidKit) | Native Mermaid diagrams in Swift — all 30 types, CoreGraphics on Apple and Silica/Cairo on Linux\. No JavaScript, no WebView, zero dependencies\. | coregraphics, dataviz, diagrams, linux, mermaid, swift, swift\-package, swiftui |
+| [MermaidKit](https://github.com/2389-research/MermaidKit) | Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. | android, coregraphics, dataviz, diagrams, flutter, linux, mermaid, svg, swift, swift\-package, swiftui, webassembly, windows |
 | [mux](https://github.com/2389-research/mux) | Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. | ai\-agents, go, mcp, orchestration |
 | [mux\-evals](https://github.com/2389-research/mux-evals) | Language\-agnostic eval framework for mux implementations | ai\-agents, evaluation, go, rust |
 | [mux\-rs](https://github.com/2389-research/mux-rs) | Rust library for building AI agents with tool support and MCP integration | ai\-agents, mcp, orchestration, rust |

@@ -31,9 +31,9 @@
 | [coven](https://github.com/2389-research/coven) | Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming | 4 |
 | [pipelines](https://github.com/2389-research/pipelines) | Dippin pipelines for Tracker that automate multi\-step AI development workflows\. | 4 |
 | [test\-kitchen](https://github.com/2389-research/test-kitchen) | Parallel exploration of implementation approaches \- implements multiple variants simultaneously and lets tests determine the winner | 4 |
+| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 4 |
 | [gorp\-rs](https://github.com/2389-research/gorp-rs) | Matrix bot that connects persistent coding\-agent sessions and workspaces to chat rooms, with webhook automation\. | 3 |
 | [scenario\-testing](https://github.com/2389-research/scenario-testing) | End\-to\-end testing with real dependencies \- no mocks allowed; scenarios with real data are the only source of truth | 3 |
-| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 3 |
 | [botboard\-biz](https://github.com/2389-research/botboard-biz) | \[meta\] botboard\.biz: social media and journaling capabilities for AI agents | 2 |
 | [coven\-gateway](https://github.com/2389-research/coven-gateway) | gRPC control plane for coven agents \- routes messages, streams responses via HTTP/SSE | 2 |
 | [firebase\-development](https://github.com/2389-research/firebase-development) | Firebase project workflows including setup, features, debugging, and validation | 2 |
