@@ -16,9 +16,9 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-16
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-17
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-17
 - [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-16
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-16
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-16
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-16
 - [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-14
@@ -27,8 +27,8 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Latest releases
 
+- [tracker: v0\.80\.1](https://github.com/2389-research/tracker/releases/tag/v0.80.1) — 2026-10-17
 - [MermaidKit: v2\.4\.0 — v2\.4\.0 — Every flowchart link, every classic shape](https://github.com/2389-research/MermaidKit/releases/tag/v2.4.0) — 2026-10-16
-- [tracker: v0\.80\.0](https://github.com/2389-research/tracker/releases/tag/v0.80.0) — 2026-10-16
 - [dippin\-lang: v0\.79\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.79.0) — 2026-10-16
 - [ccvault: v0\.3\.0](https://github.com/2389-research/ccvault/releases/tag/v0.3.0) — 2026-10-08
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
@@ -57,7 +57,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [simmer](https://github.com/2389-research/simmer) — Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements — 15 stars
 - [summarize\-meetings](https://github.com/2389-research/summarize-meetings) — Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction — 15 stars
 - [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. — 14 stars
-- [Quoin](https://github.com/2389-research/Quoin) — A native macOS WYSIWYG Markdown editor with an in\-file review loop — suggestions, comments, and tracked changes as plain CriticMarkup bytes\. Native LaTeX math \(Vinculum\) and diagrams \(MermaidKit\), zero JavaScript, byte\-lossless, local\-only\. — 12 stars
+- [Quoin](https://github.com/2389-research/Quoin) — A native macOS WYSIWYG Markdown editor with an in\-file review loop — suggestions, comments, and tracked changes as plain CriticMarkup bytes\. Native LaTeX math \(Vinculum\) and diagrams \(MermaidKit\), zero JavaScript, byte\-lossless, local\-only\. — 13 stars
 
 ## Topics
 
