@@ -16,13 +16,13 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-10-18
 - [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-17
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-17
 - [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-16
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-16
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-16
 - [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-14
-- [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-10-11
 - [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-10-07
 
 ## Latest releases
