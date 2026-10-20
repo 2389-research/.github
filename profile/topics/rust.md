@@ -10,9 +10,9 @@
 | --- | --- | --- |
 | [cc\-log\-viewer](https://github.com/2389-research/cc-log-viewer) | Web interface for browsing, searching, and auditing Claude Code conversation logs\. | 8 |
 | [boba](https://github.com/2389-research/boba) | A Bubble Tea\-inspired TUI framework for Rust, built on ratatui | 5 |
+| [dot\-viewer](https://github.com/2389-research/dot-viewer) | Native macOS Graphviz \.dot file viewer and editor — Rust core with SwiftUI frontend | 5 |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | 5 |
 | [coven](https://github.com/2389-research/coven) | Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming | 4 |
-| [dot\-viewer](https://github.com/2389-research/dot-viewer) | Native macOS Graphviz \.dot file viewer and editor — Rust core with SwiftUI frontend | 4 |
 | [gorp\-rs](https://github.com/2389-research/gorp-rs) | Matrix bot that connects persistent coding\-agent sessions and workspaces to chat rooms, with webhook automation\. | 3 |
 | [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) | Production\-ready implementation of the 2389 Agent Protocol in Rust | 2 |
 | [jeff](https://github.com/2389-research/jeff) | AI assistant CLI for managing email, calendars, contacts, and tasks through conversation\. | 2 |

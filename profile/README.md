@@ -16,20 +16,20 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-19
+- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-19
+- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-19
+- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-19
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-19
 - [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-10-18
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-17
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-17
-- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-16
-- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-16
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-16
-- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-14
 - [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-10-07
 
 ## Latest releases
 
+- [MermaidKit: v2\.5\.0 — v2\.5\.0 — Dynamic Type for diagrams, everywhere](https://github.com/2389-research/MermaidKit/releases/tag/v2.5.0) — 2026-10-19
+- [dippin\-lang: v0\.80\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.80.0) — 2026-10-19
 - [tracker: v0\.80\.1](https://github.com/2389-research/tracker/releases/tag/v0.80.1) — 2026-10-17
-- [MermaidKit: v2\.4\.0 — v2\.4\.0 — Every flowchart link, every classic shape](https://github.com/2389-research/MermaidKit/releases/tag/v2.4.0) — 2026-10-16
-- [dippin\-lang: v0\.79\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.79.0) — 2026-10-16
 - [ccvault: v0\.3\.0](https://github.com/2389-research/ccvault/releases/tag/v0.3.0) — 2026-10-08
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
 - [observatory: guest\-images\-6\.1\.186](https://github.com/2389-research/observatory/releases/tag/guest-images-6.1.186) — 2026-09-07
@@ -50,9 +50,9 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 97 stars
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 33 stars
-- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 25 stars
+- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 26 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 22 stars
-- [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 20 stars
+- [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 21 stars
 - [thrifty](https://github.com/2389-research/thrifty) — Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. — 17 stars
 - [simmer](https://github.com/2389-research/simmer) — Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements — 15 stars
 - [summarize\-meetings](https://github.com/2389-research/summarize-meetings) — Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction — 15 stars

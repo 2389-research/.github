@@ -9,7 +9,7 @@
 | Name | Description | Stars |
 | --- | --- | --- |
 | [dippin\-lang](https://github.com/2389-research/dippin-lang) | Dippin: a DSL for authoring AI pipeline workflows | 33 |
-| [breakaway\-agent](https://github.com/2389-research/breakaway-agent) | Small experimental coding agent with swappable policies, context strategies, tools, and system prompts\. | 9 |
+| [breakaway\-agent](https://github.com/2389-research/breakaway-agent) | Small experimental coding agent with swappable policies, context strategies, tools, and system prompts\. | 10 |
 | [soloclaw](https://github.com/2389-research/soloclaw) | Terminal AI agent with a streaming interface, extensible tools, and layered tool approval, built in Rust\. | 2 |
 | [hex](https://github.com/2389-research/hex) | Go CLI for Claude with a streaming terminal interface, persistent conversations, built\-in tools, and MCP integration\. | 1 |
 | [jev\-plays\-pokemon](https://github.com/2389-research/jev-plays-pokemon) | AI agent that plays Pokémon Red through the PyBoy Game Boy emulator\. | 1 |

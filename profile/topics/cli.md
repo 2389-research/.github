@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [breakaway\-agent](https://github.com/2389-research/breakaway-agent) | Small experimental coding agent with swappable policies, context strategies, tools, and system prompts\. | 9 |
+| [breakaway\-agent](https://github.com/2389-research/breakaway-agent) | Small experimental coding agent with swappable policies, context strategies, tools, and system prompts\. | 10 |
 | [translator](https://github.com/2389-research/translator) | CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. | 8 |
 | [phonegang](https://github.com/2389-research/phonegang) | CLI, Python API, and MCP server for automating Android phones over USB using accessibility trees\. | 3 |
 | [jeff](https://github.com/2389-research/jeff) | AI assistant CLI for managing email, calendars, contacts, and tasks through conversation\. | 2 |
