@@ -8,10 +8,10 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
+| [MermaidKit](https://github.com/2389-research/MermaidKit) | Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. | 13 |
 | [Quoin](https://github.com/2389-research/Quoin) | A native macOS WYSIWYG Markdown editor with an in\-file review loop — suggestions, comments, and tracked changes as plain CriticMarkup bytes\. Native LaTeX math \(Vinculum\) and diagrams \(MermaidKit\), zero JavaScript, byte\-lossless, local\-only\. | 13 |
-| [MermaidKit](https://github.com/2389-research/MermaidKit) | Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. | 12 |
+| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 5 |
 | [Vinculum](https://github.com/2389-research/Vinculum) | Native LaTeX math typesetting for Apple platforms and Linux — real glyph shapes, TeX metrics from the font's MATH table, no MathJax, no WebView\. | 4 |
-| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 4 |
 | [nodelife](https://github.com/2389-research/nodelife) | macOS app that turns Granola meeting transcripts into an interactive knowledge graph of people, projects, and ideas\. | 2 |
 | [screensaver](https://github.com/2389-research/screensaver) | Native macOS screensaver that simulates coding\-agent terminal sessions in a changing tmux\-style grid\. | 0 |
 | [tcord](https://github.com/2389-research/tcord) | Apple Watch and iPhone app for recording voice memos, transcribing on\-device, and syncing recordings to Firebase\. | 0 |

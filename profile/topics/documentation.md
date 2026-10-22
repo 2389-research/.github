@@ -8,6 +8,6 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
+| [documentation\-audit](https://github.com/2389-research/documentation-audit) | Verify documentation claims against codebase reality \- two\-pass extraction with pattern expansion for comprehensive drift detection | 2 |
 | [better\-dev](https://github.com/2389-research/better-dev) | \[meta\] better development: CSS workflows, Firebase development, code quality, real testing, parallel exploration, documentation verification, and token\-efficient codegen | 1 |
-| [documentation\-audit](https://github.com/2389-research/documentation-audit) | Verify documentation claims against codebase reality \- two\-pass extraction with pattern expansion for comprehensive drift detection | 1 |
 | [design\-md](https://github.com/2389-research/design-md) | Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference | 0 |

@@ -9,11 +9,11 @@
 | Name | Description | Stars |
 | --- | --- | --- |
 | [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 97 |
-| [gsuite\-mcp](https://github.com/2389-research/gsuite-mcp) | MCP server for Google Workspace \(Gmail, Calendar, Contacts\) \- Go implementation | 7 |
-| [pulse](https://github.com/2389-research/pulse) | Private journaling and social media MCP server for humans and agents | 5 |
+| [gsuite\-mcp](https://github.com/2389-research/gsuite-mcp) | MCP server for Google Workspace \(Gmail, Calendar, Contacts\) \- Go implementation | 8 |
+| [pulse](https://github.com/2389-research/pulse) | Private journaling and social media MCP server for humans and agents | 6 |
+| [mux](https://github.com/2389-research/mux) | Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. | 3 |
 | [phonegang](https://github.com/2389-research/phonegang) | CLI, Python API, and MCP server for automating Android phones over USB using accessibility trees\. | 3 |
 | [gmailcal\-mcp\-rs](https://github.com/2389-research/gmailcal-mcp-rs) | A simple MCP server for gmail, google calendar, and google contacts \(people\) | 2 |
-| [mux](https://github.com/2389-research/mux) | Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. | 2 |
 | [soloclaw](https://github.com/2389-research/soloclaw) | Terminal AI agent with a streaming interface, extensible tools, and layered tool approval, built in Rust\. | 2 |
 | [workchat\-mcp](https://github.com/2389-research/workchat-mcp) | Team chat application with channels, threaded conversations, search, and MCP access for AI assistants\. | 2 |
 | [hex](https://github.com/2389-research/hex) | Go CLI for Claude with a streaming terminal interface, persistent conversations, built\-in tools, and MCP integration\. | 1 |
