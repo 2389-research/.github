@@ -16,20 +16,20 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-22
-- [orrery](https://github.com/2389-research/orrery) — Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. — pushed 2026-10-22
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-21
-- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-21
+- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-23
+- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-23
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-23
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-23
+- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-23
+- [orrery](https://github.com/2389-research/orrery) — Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. — pushed 2026-10-23
 - [pipelines](https://github.com/2389-research/pipelines) — Dippin pipelines for Tracker that automate multi\-step AI development workflows\. — pushed 2026-10-21
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-21
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-20
-- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-19
 
 ## Latest releases
 
+- [dippin\-lang: v0\.81\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.81.0) — 2026-10-23
 - [MermaidKit: v2\.7\.1 — v2\.7\.1 — Every word, every line, every box](https://github.com/2389-research/MermaidKit/releases/tag/v2.7.1) — 2026-10-21
 - [tracker: v0\.81\.0](https://github.com/2389-research/tracker/releases/tag/v0.81.0) — 2026-10-20
-- [dippin\-lang: v0\.80\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.80.0) — 2026-10-19
 - [ccvault: v0\.3\.0](https://github.com/2389-research/ccvault/releases/tag/v0.3.0) — 2026-10-08
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
 - [observatory: guest\-images\-6\.1\.186](https://github.com/2389-research/observatory/releases/tag/guest-images-6.1.186) — 2026-09-07
