@@ -50,7 +50,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 97 stars
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 33 stars
-- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 27 stars
+- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 28 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 22 stars
 - [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 21 stars
 - [thrifty](https://github.com/2389-research/thrifty) — Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. — 17 stars

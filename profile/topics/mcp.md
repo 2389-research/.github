@@ -15,10 +15,10 @@
 | [phonegang](https://github.com/2389-research/phonegang) | CLI, Python API, and MCP server for automating Android phones over USB using accessibility trees\. | 3 |
 | [gmailcal\-mcp\-rs](https://github.com/2389-research/gmailcal-mcp-rs) | A simple MCP server for gmail, google calendar, and google contacts \(people\) | 2 |
 | [soloclaw](https://github.com/2389-research/soloclaw) | Terminal AI agent with a streaming interface, extensible tools, and layered tool approval, built in Rust\. | 2 |
+| [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 2 |
 | [workchat\-mcp](https://github.com/2389-research/workchat-mcp) | Team chat application with channels, threaded conversations, search, and MCP access for AI assistants\. | 2 |
 | [hex](https://github.com/2389-research/hex) | Go CLI for Claude with a streaming terminal interface, persistent conversations, built\-in tools, and MCP integration\. | 1 |
 | [slack\-mcp](https://github.com/2389-research/slack-mcp) | Slack workspace integration MCP server \- create channels, invite users, post messages, manage threads for team collaboration | 1 |
-| [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 1 |
 | [vocalize\-mcp](https://github.com/2389-research/vocalize-mcp) | Text\-to\-speech MCP server for AI agents, with multiple speech engines, emotion control, and voice customization\. | 1 |
 | [mux\-rs](https://github.com/2389-research/mux-rs) | Rust library for building AI agents with tool support and MCP integration | 0 |
 | [oauth\-relay\-example](https://github.com/2389-research/oauth-relay-example) | Proof\-of\-concept: Local stdio MCP server with OAuth 2\.1 \+ PKCE, token management, and backend relay | 0 |

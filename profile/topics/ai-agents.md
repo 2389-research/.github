@@ -9,7 +9,7 @@
 | Name | Description | Stars |
 | --- | --- | --- |
 | [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 97 |
-| [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 27 |
+| [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 28 |
 | [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 22 |
 | [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 21 |
 | [thrifty](https://github.com/2389-research/thrifty) | Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. | 17 |
@@ -40,6 +40,7 @@
 | [documentation\-audit](https://github.com/2389-research/documentation-audit) | Verify documentation claims against codebase reality \- two\-pass extraction with pattern expansion for comprehensive drift detection | 2 |
 | [firebase\-development](https://github.com/2389-research/firebase-development) | Firebase project workflows including setup, features, debugging, and validation | 2 |
 | [git\-repo\-prep](https://github.com/2389-research/git-repo-prep) | Prepare codebases for public/open\-source release and audit them for openness \- full lifecycle prep or standalone review | 2 |
+| [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 2 |
 | [terminal\-title](https://github.com/2389-research/terminal-title) | Automatically updates terminal title with emoji \+ project \+ topic context for quick visual cues when switching terminals | 2 |
 | [agent\-ergo](https://github.com/2389-research/agent-ergo) | A skill for making systems intuitive, ergonomic, and cumulative for AI agents | 1 |
 | [better\-dev](https://github.com/2389-research/better-dev) | \[meta\] better development: CSS workflows, Firebase development, code quality, real testing, parallel exploration, documentation verification, and token\-efficient codegen | 1 |
@@ -50,7 +51,6 @@
 | [prbuddy](https://github.com/2389-research/prbuddy) | PR health assistant \- monitors CI, triages review comments, fixes issues with systematic prevention\. Uses gh CLI and gh\-pr\-review extension\. | 1 |
 | [remote\-system\-maintenance](https://github.com/2389-research/remote-system-maintenance) | Structured procedures for Linux system diagnostics and maintenance via SSH/tmux with Ubuntu/Debian cleanup checklists | 1 |
 | [slack\-mcp](https://github.com/2389-research/slack-mcp) | Slack workspace integration MCP server \- create channels, invite users, post messages, manage threads for team collaboration | 1 |
-| [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 1 |
 | [sysadmin](https://github.com/2389-research/sysadmin) | \[meta\] system administration: structured Linux maintenance and diagnostics | 1 |
 | [tux](https://github.com/2389-research/tux) | Multi\-language TUI library for multi\-agent terminal interfaces | 1 |
 | [barnstormer](https://github.com/2389-research/barnstormer) | Collaborative specification builder with AI agents, event\-sourced history, and a live web interface\. | 0 |
