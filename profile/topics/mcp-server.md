@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) | MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. | 14 |
+| [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) | MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. | 15 |
 | [journal\-mcp](https://github.com/2389-research/journal-mcp) (fork) | A lightweight MCP server that provides Claude with a private journaling capability to process feelings and thoughts | 9 |
 | [agent\-drugs](https://github.com/2389-research/agent-drugs) (archived) | Claude Code plugin with MCP server for digital drugs that modify AI behavior through prompt injection | 6 |
 | [gmailcal\-mcp\-rs](https://github.com/2389-research/gmailcal-mcp-rs) | A simple MCP server for gmail, google calendar, and google contacts \(people\) | 2 |

@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 97 |
+| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 98 |
 | [gsuite\-mcp](https://github.com/2389-research/gsuite-mcp) | MCP server for Google Workspace \(Gmail, Calendar, Contacts\) \- Go implementation | 8 |
 | [pulse](https://github.com/2389-research/pulse) | Private journaling and social media MCP server for humans and agents | 6 |
 | [mux](https://github.com/2389-research/mux) | Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. | 3 |
