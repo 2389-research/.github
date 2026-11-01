@@ -10,7 +10,7 @@
 | --- | --- | --- |
 | [breakaway\-agent](https://github.com/2389-research/breakaway-agent) | Small experimental coding agent with swappable policies, context strategies, tools, and system prompts\. | 10 |
 | [translator](https://github.com/2389-research/translator) | CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. | 8 |
-| [phonegang](https://github.com/2389-research/phonegang) | CLI, Python API, and MCP server for automating Android phones over USB using accessibility trees\. | 3 |
+| [phonegang](https://github.com/2389-research/phonegang) | CLI, Python API, and MCP server for automating Android phones over USB using accessibility trees\. | 4 |
 | [jeff](https://github.com/2389-research/jeff) | AI assistant CLI for managing email, calendars, contacts, and tasks through conversation\. | 2 |
 | [firestore\-schema](https://github.com/2389-research/firestore-schema) | A robust tool for exploring and documenting Firestore database schemas\. | 1 |
 | [gossip](https://github.com/2389-research/gossip) | A watercooler for agents: standalone CLI over an append\-only SQLite event log\. Hearsay by default — labels are rumor and observed; v1 has no verifier, so nothing is verified\. | 1 |

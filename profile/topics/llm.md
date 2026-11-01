@@ -9,14 +9,14 @@
 | Name | Description | Stars |
 | --- | --- | --- |
 | [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 98 |
-| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 22 |
+| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 23 |
 | [simmer](https://github.com/2389-research/simmer) | Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements | 16 |
 | [translator](https://github.com/2389-research/translator) | CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. | 8 |
 | [word\-compiler](https://github.com/2389-research/word-compiler) | Context compiler for long\-form fiction that turns character, voice, and scene plans into guided LLM prose generation\. | 7 |
 | [mammoth](https://github.com/2389-research/mammoth) | DOT\-based pipeline runner for LLM agent workflows, with a graph editor, terminal UI, and web interface\. | 5 |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | 5 |
+| [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 3 |
 | [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) | Production\-ready implementation of the 2389 Agent Protocol in Rust | 2 |
-| [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 2 |
 | [typesafe\-go](https://github.com/2389-research/typesafe-go) | A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the standard library\. | 2 |
 | [ai\-marketing](https://github.com/2389-research/ai-marketing) | AI content and QA pipeline that turns topics into platform\-ready marketing drafts\. | 1 |
 | [hindsight](https://github.com/2389-research/hindsight) | Analyze your Claude Code sessions through configurable lenses\. | 0 |

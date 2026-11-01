@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 22 |
+| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 23 |
 | [ccvault](https://github.com/2389-research/ccvault) | Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. | 11 |
 | [gsuite\-mcp](https://github.com/2389-research/gsuite-mcp) | MCP server for Google Workspace \(Gmail, Calendar, Contacts\) \- Go implementation | 8 |
 | [acp\-relay](https://github.com/2389-research/acp-relay) | HTTP and WebSocket relay for Agent Client Protocol sessions, with an isolated agent subprocess and working directory per session\. | 6 |
