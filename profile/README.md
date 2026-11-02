@@ -16,14 +16,14 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — pushed 2026-10-30
-- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-10-30
-- [orrery](https://github.com/2389-research/orrery) — Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. — pushed 2026-10-30
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-10-29
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-10-29
-- [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — pushed 2026-10-29
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-10-28
-- [smasher](https://github.com/2389-research/smasher) — Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. — pushed 2026-10-28
+- [mux](https://github.com/2389-research/mux) — Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. — pushed 2026-11-02
+- [barnstormer](https://github.com/2389-research/barnstormer) — Collaborative specification builder with AI agents, event\-sourced history, and a live web interface\. — pushed 2026-11-02
+- [simmer](https://github.com/2389-research/simmer) — Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements — pushed 2026-11-02
+- [building\-multiagent\-systems](https://github.com/2389-research/building-multiagent-systems) — Architecture patterns for multi\-agent systems with orchestrators, sub\-agents, and tool coordination — pushed 2026-11-02
+- [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) — Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation — pushed 2026-11-02
+- [ceo\-personal\-os](https://github.com/2389-research/ceo-personal-os) — Personal operating system for executives \- reflection frameworks, goal systems, coaching\-style reviews \(Gustin, Ferriss, Robbins, Lieberman, Campbell, Eisenmann, Collins, Martell, Gerber, Blank\) — pushed 2026-11-02
+- [xtool](https://github.com/2389-research/xtool) — Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode — pushed 2026-11-02
+- [remote\-system\-maintenance](https://github.com/2389-research/remote-system-maintenance) — Structured procedures for Linux system diagnostics and maintenance via SSH/tmux with Ubuntu/Debian cleanup checklists — pushed 2026-11-02
 
 ## Latest releases
 
@@ -48,8 +48,8 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Top starred repos
 
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 98 stars
-- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 36 stars
+- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 99 stars
+- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 37 stars
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 34 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 23 stars
 - [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 22 stars

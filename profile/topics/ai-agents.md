@@ -8,8 +8,8 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 98 |
-| [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 36 |
+| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 99 |
+| [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 37 |
 | [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 23 |
 | [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 22 |
 | [thrifty](https://github.com/2389-research/thrifty) | Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. | 17 |
@@ -38,6 +38,7 @@
 | [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 3 |
 | [botboard\-biz](https://github.com/2389-research/botboard-biz) | \[meta\] botboard\.biz: social media and journaling capabilities for AI agents | 2 |
 | [coven\-gateway](https://github.com/2389-research/coven-gateway) | gRPC control plane for coven agents \- routes messages, streams responses via HTTP/SSE | 2 |
+| [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | 2 |
 | [documentation\-audit](https://github.com/2389-research/documentation-audit) | Verify documentation claims against codebase reality \- two\-pass extraction with pattern expansion for comprehensive drift detection | 2 |
 | [firebase\-development](https://github.com/2389-research/firebase-development) | Firebase project workflows including setup, features, debugging, and validation | 2 |
 | [git\-repo\-prep](https://github.com/2389-research/git-repo-prep) | Prepare codebases for public/open\-source release and audit them for openness \- full lifecycle prep or standalone review | 2 |
@@ -45,7 +46,6 @@
 | [agent\-ergo](https://github.com/2389-research/agent-ergo) | A skill for making systems intuitive, ergonomic, and cumulative for AI agents | 1 |
 | [better\-dev](https://github.com/2389-research/better-dev) | \[meta\] better development: CSS workflows, Firebase development, code quality, real testing, parallel exploration, documentation verification, and token\-efficient codegen | 1 |
 | [coven\-openclaw](https://github.com/2389-research/coven-openclaw) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | 1 |
-| [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | 1 |
 | [fleet\-control](https://github.com/2389-research/fleet-control) | CLI, terminal UI, and API for monitoring AI coding agents in tmux, classifying activity, and recording session history\. | 1 |
 | [gossip](https://github.com/2389-research/gossip) | A watercooler for agents: standalone CLI over an append\-only SQLite event log\. Hearsay by default — labels are rumor and observed; v1 has no verifier, so nothing is verified\. | 1 |
 | [prbuddy](https://github.com/2389-research/prbuddy) | PR health assistant \- monitors CI, triages review comments, fixes issues with systematic prevention\. Uses gh CLI and gh\-pr\-review extension\. | 1 |

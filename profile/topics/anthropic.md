@@ -8,8 +8,8 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 98 |
-| [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 36 |
+| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 99 |
+| [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 37 |
 | [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 22 |
 | [simmer](https://github.com/2389-research/simmer) | Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements | 16 |
 | [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) | MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. | 15 |
@@ -27,12 +27,12 @@
 | [scenario\-testing](https://github.com/2389-research/scenario-testing) | End\-to\-end testing with real dependencies \- no mocks allowed; scenarios with real data are the only source of truth | 3 |
 | [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 3 |
 | [botboard\-biz](https://github.com/2389-research/botboard-biz) | \[meta\] botboard\.biz: social media and journaling capabilities for AI agents | 2 |
+| [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | 2 |
 | [documentation\-audit](https://github.com/2389-research/documentation-audit) | Verify documentation claims against codebase reality \- two\-pass extraction with pattern expansion for comprehensive drift detection | 2 |
 | [firebase\-development](https://github.com/2389-research/firebase-development) | Firebase project workflows including setup, features, debugging, and validation | 2 |
 | [git\-repo\-prep](https://github.com/2389-research/git-repo-prep) | Prepare codebases for public/open\-source release and audit them for openness \- full lifecycle prep or standalone review | 2 |
 | [terminal\-title](https://github.com/2389-research/terminal-title) | Automatically updates terminal title with emoji \+ project \+ topic context for quick visual cues when switching terminals | 2 |
 | [better\-dev](https://github.com/2389-research/better-dev) | \[meta\] better development: CSS workflows, Firebase development, code quality, real testing, parallel exploration, documentation verification, and token\-efficient codegen | 1 |
-| [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | 1 |
 | [prbuddy](https://github.com/2389-research/prbuddy) | PR health assistant \- monitors CI, triages review comments, fixes issues with systematic prevention\. Uses gh CLI and gh\-pr\-review extension\. | 1 |
 | [remote\-system\-maintenance](https://github.com/2389-research/remote-system-maintenance) | Structured procedures for Linux system diagnostics and maintenance via SSH/tmux with Ubuntu/Debian cleanup checklists | 1 |
 | [slack\-mcp](https://github.com/2389-research/slack-mcp) | Slack workspace integration MCP server \- create channels, invite users, post messages, manage threads for team collaboration | 1 |
