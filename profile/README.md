@@ -16,6 +16,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) — Production\-ready implementation of the 2389 Agent Protocol in Rust — pushed 2026-11-02
 - [mux](https://github.com/2389-research/mux) — Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. — pushed 2026-11-02
 - [barnstormer](https://github.com/2389-research/barnstormer) — Collaborative specification builder with AI agents, event\-sourced history, and a live web interface\. — pushed 2026-11-02
 - [simmer](https://github.com/2389-research/simmer) — Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements — pushed 2026-11-02
@@ -23,7 +24,6 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) — Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation — pushed 2026-11-02
 - [ceo\-personal\-os](https://github.com/2389-research/ceo-personal-os) — Personal operating system for executives \- reflection frameworks, goal systems, coaching\-style reviews \(Gustin, Ferriss, Robbins, Lieberman, Campbell, Eisenmann, Collins, Martell, Gerber, Blank\) — pushed 2026-11-02
 - [xtool](https://github.com/2389-research/xtool) — Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode — pushed 2026-11-02
-- [remote\-system\-maintenance](https://github.com/2389-research/remote-system-maintenance) — Structured procedures for Linux system diagnostics and maintenance via SSH/tmux with Ubuntu/Debian cleanup checklists — pushed 2026-11-02
 
 ## Latest releases
 
