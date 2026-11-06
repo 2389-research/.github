@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [orrery](https://github.com/2389-research/orrery) | Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. | 12 |
+| [orrery](https://github.com/2389-research/orrery) | Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. | 13 |
 | [translator](https://github.com/2389-research/translator) | CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. | 8 |
 | [phonegang](https://github.com/2389-research/phonegang) | CLI, Python API, and MCP server for automating Android phones over USB using accessibility trees\. | 4 |
 | [jev\-plays\-pokemon](https://github.com/2389-research/jev-plays-pokemon) | AI agent that plays Pokémon Red through the PyBoy Game Boy emulator\. | 2 |
