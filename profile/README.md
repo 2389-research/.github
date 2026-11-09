@@ -16,8 +16,8 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-11-08
 - [pact](https://github.com/2389-research/pact) — Local signed event ledger CLI with Ed25519 identities, verification, checkpoints, and a queryable SQLite index\. — pushed 2026-11-07
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-11-06
 - [smasher](https://github.com/2389-research/smasher) — Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. — pushed 2026-11-06
 - [translator](https://github.com/2389-research/translator) — CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. — pushed 2026-11-06
 - [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-11-05
