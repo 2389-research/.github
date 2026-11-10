@@ -16,6 +16,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) — Production\-ready implementation of the 2389 Agent Protocol in Rust — pushed 2026-11-09
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-11-08
 - [pact](https://github.com/2389-research/pact) — Local signed event ledger CLI with Ed25519 identities, verification, checkpoints, and a queryable SQLite index\. — pushed 2026-11-07
 - [smasher](https://github.com/2389-research/smasher) — Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. — pushed 2026-11-06
@@ -23,7 +24,6 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-11-05
 - [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-11-05
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-04
-- [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) — Production\-ready implementation of the 2389 Agent Protocol in Rust — pushed 2026-11-02
 
 ## Latest releases
 
