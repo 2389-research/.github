@@ -14,7 +14,7 @@
 | [acp\-relay](https://github.com/2389-research/acp-relay) | HTTP and WebSocket relay for Agent Client Protocol sessions, with an isolated agent subprocess and working directory per session\. | 6 |
 | [pulse](https://github.com/2389-research/pulse) | Private journaling and social media MCP server for humans and agents | 6 |
 | [mammoth](https://github.com/2389-research/mammoth) | DOT\-based pipeline runner for LLM agent workflows, with a graph editor, terminal UI, and web interface\. | 5 |
-| [observatory](https://github.com/2389-research/observatory) | Run several Firecracker microVMs on one Linux host and watch what happens inside them\. Agent\-first HTTP API, browser terminals, durable event history\. | 4 |
+| [observatory](https://github.com/2389-research/observatory) | Run several Firecracker microVMs on one Linux host and watch what happens inside them\. Agent\-first HTTP API, browser terminals, durable event history\. | 5 |
 | [mux](https://github.com/2389-research/mux) | Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. | 3 |
 | [coven\-gateway](https://github.com/2389-research/coven-gateway) | gRPC control plane for coven agents \- routes messages, streams responses via HTTP/SSE | 2 |
 | [turtle](https://github.com/2389-research/turtle) | TUI app teaching terminal &amp; tmux through gamified spaced\-repetition microlearning | 2 |

@@ -45,7 +45,7 @@
 | [terminal\-title](https://github.com/2389-research/terminal-title) | Automatically updates terminal title with emoji \+ project \+ topic context for quick visual cues when switching terminals | 2 |
 | [agent\-ergo](https://github.com/2389-research/agent-ergo) | A skill for making systems intuitive, ergonomic, and cumulative for AI agents | 1 |
 | [better\-dev](https://github.com/2389-research/better-dev) | \[meta\] better development: CSS workflows, Firebase development, code quality, real testing, parallel exploration, documentation verification, and token\-efficient codegen | 1 |
-| [coven\-openclaw](https://github.com/2389-research/coven-openclaw) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | 1 |
+| [coven\-openclaw](https://github.com/2389-research/coven-openclaw) (archived) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | 1 |
 | [fleet\-control](https://github.com/2389-research/fleet-control) | CLI, terminal UI, and API for monitoring AI coding agents in tmux, classifying activity, and recording session history\. | 1 |
 | [gossip](https://github.com/2389-research/gossip) | A watercooler for agents: standalone CLI over an append\-only SQLite event log\. Hearsay by default — labels are rumor and observed; v1 has no verifier, so nothing is verified\. | 1 |
 | [prbuddy](https://github.com/2389-research/prbuddy) | PR health assistant \- monitors CI, triages review comments, fixes issues with systematic prevention\. Uses gh CLI and gh\-pr\-review extension\. | 1 |

@@ -16,17 +16,18 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Native client for Herdr on macOS, Linux, and Windows, built with Rust and GPUI\. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon\. — pushed 2026-11-12
+- [wallfacer](https://github.com/2389-research/wallfacer) — Projection mapping and demoscene effects for Raspberry Pi, written in Rust\. — pushed 2026-11-12
+- [sprint\-ledger\-browser](https://github.com/2389-research/sprint-ledger-browser) — Terminal UI for browsing AI sprint ledger files — pushed 2026-11-12
+- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-11-12
+- [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-11-12
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-11
 - [smasher](https://github.com/2389-research/smasher) — Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. — pushed 2026-11-10
 - [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) — Production\-ready implementation of the 2389 Agent Protocol in Rust — pushed 2026-11-09
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — pushed 2026-11-08
-- [pact](https://github.com/2389-research/pact) — Local signed event ledger CLI with Ed25519 identities, verification, checkpoints, and a queryable SQLite index\. — pushed 2026-11-07
-- [translator](https://github.com/2389-research/translator) — CLI for translating text files while preserving formatting, with editing, critique, and revision passes\. — pushed 2026-11-06
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-11-05
-- [ccvault](https://github.com/2389-research/ccvault) — Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. — pushed 2026-11-05
 
 ## Latest releases
 
+- [spaceport: macos\-preview\-feed — macOS preview update feed](https://github.com/2389-research/spaceport/releases/tag/macos-preview-feed) — 2026-11-12 · prerelease
 - [pact: v1\.0\.2](https://github.com/2389-research/pact/releases/tag/v1.0.2) — 2026-11-07
 - [ccvault: v0\.4\.0](https://github.com/2389-research/ccvault/releases/tag/v0.4.0) — 2026-11-05
 - [MermaidKit: v2\.10\.2 — v2\.10\.2 — Every SVG label is well\-formed XML](https://github.com/2389-research/MermaidKit/releases/tag/v2.10.2) — 2026-10-30
@@ -36,7 +37,6 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [observatory: guest\-images\-6\.1\.186](https://github.com/2389-research/observatory/releases/tag/guest-images-6.1.186) — 2026-09-07
 - [pulse: v0\.2\.4](https://github.com/2389-research/pulse/releases/tag/v0.2.4) — 2026-08-12
 - [orrery: v0\.5\.2 — Noospheric v0\.5\.2](https://github.com/2389-research/orrery/releases/tag/v0.5.2) — 2026-08-10
-- [Quoin: v1\.3\.0\-rc\.7 — Quoin v1\.3\.0\-rc\.7](https://github.com/2389-research/Quoin/releases/tag/v1.3.0-rc.7) — 2026-07-22 · prerelease
 
 ## Latest research
 
@@ -68,7 +68,7 @@ Most-used topics, with public repository counts.
 ## Repository directory
 
 <details>
-<summary>Browse all 117 public repositories</summary>
+<summary>Browse all 118 public repositories</summary>
 
 | Name | Description | Topics |
 | --- | --- | --- |
@@ -99,7 +99,7 @@ Most-used topics, with public repository counts.
 | [complex\-simplify](https://github.com/2389-research/complex-simplify) | A skill for focused reuse, quality, and efficiency cleanup of recently changed code, with an evaluation harness\. | claude\-code, code\-review, refactoring |
 | [coven](https://github.com/2389-research/coven) | Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming | ai\-agents, grpc, orchestration, rust |
 | [coven\-gateway](https://github.com/2389-research/coven-gateway) | gRPC control plane for coven agents \- routes messages, streams responses via HTTP/SSE | ai\-agents, go, grpc, orchestration |
-| [coven\-openclaw](https://github.com/2389-research/coven-openclaw) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | ai\-agents, grpc, openclaw, typescript |
+| [coven\-openclaw](https://github.com/2389-research/coven-openclaw) (archived) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | ai\-agents, grpc, openclaw, typescript |
 | [coven\-proto](https://github.com/2389-research/coven-proto) | Canonical protobuf definitions for Coven agent\-to\-gateway communication and bidirectional streaming\. | ai\-agents, grpc, protobuf |
 | [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | ai\-agents, anthropic, automation, claude, claude\-code, claude\-code\-skills, components, css, dark\-mode, styling, tailwind |
 | [decker](https://github.com/2389-research/decker) | Configurable controller for the Elgato Stream Deck\+, with button, dial, and touch\-strip actions\. | hardware, home\-automation, rust, stream\-deck |
@@ -166,6 +166,7 @@ Most-used topics, with public repository counts.
 | [slack\-mcp](https://github.com/2389-research/slack-mcp) | Slack workspace integration MCP server \- create channels, invite users, post messages, manage threads for team collaboration | ai\-agents, anthropic, automation, channels, claude, claude\-code, claude\-code\-skills, collaboration, communication, mcp, mcp\-server, messaging, model\-context\-protocol, slack, team |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | ai\-agents, graphviz, llm, rust, workflow |
 | [soloclaw](https://github.com/2389-research/soloclaw) | Terminal AI agent with a streaming interface, extensible tools, and layered tool approval, built in Rust\. | ai\-agent, mcp, rust, tui |
+| [spaceport](https://github.com/2389-research/spaceport) (fork) | Native client for Herdr on macOS, Linux, and Windows, built with Rust and GPUI\. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon\. | — |
 | [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | ai\-agents, anthropic, automation, cerebras, claude, claude\-code, claude\-code\-skills, codegen, hosted\-llm, llm, mcp, parallel, race, speed\-run, token\-efficient, turbo |
 | [sprint\-ledger\-browser](https://github.com/2389-research/sprint-ledger-browser) | Terminal UI for browsing AI sprint ledger files | go, project\-management, tui |
 | [spriter](https://github.com/2389-research/spriter) | CLI that converts video files into sprite sheets for games and web animations\. | animation, cli, python, sprite\-sheet, video |

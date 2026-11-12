@@ -10,6 +10,6 @@
 | --- | --- | --- |
 | [breakaway\-agent](https://github.com/2389-research/breakaway-agent) | Small experimental coding agent with swappable policies, context strategies, tools, and system prompts\. | 10 |
 | [word\-compiler](https://github.com/2389-research/word-compiler) | Context compiler for long\-form fiction that turns character, voice, and scene plans into guided LLM prose generation\. | 7 |
-| [coven\-openclaw](https://github.com/2389-research/coven-openclaw) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | 1 |
+| [coven\-openclaw](https://github.com/2389-research/coven-openclaw) (archived) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | 1 |
 | [oauth\-relay\-example](https://github.com/2389-research/oauth-relay-example) | Proof\-of\-concept: Local stdio MCP server with OAuth 2\.1 \+ PKCE, token management, and backend relay | 0 |
 | [visual\-uat](https://github.com/2389-research/visual-uat) | CLI for visual acceptance testing that compares screenshots across Git branches and uses Claude to assess regressions\. | 0 |
