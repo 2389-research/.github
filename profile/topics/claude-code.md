@@ -24,9 +24,9 @@
 | [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) | Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation | 7 |
 | [agent\-drugs](https://github.com/2389-research/agent-drugs) (archived) | Claude Code plugin with MCP server for digital drugs that modify AI behavior through prompt injection | 6 |
 | [fresh\-eyes\-review](https://github.com/2389-research/fresh-eyes-review) | Mandatory final sanity check before commits/PRs \- catches security vulnerabilities, logic errors, and bugs that slip through tests | 6 |
+| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 6 |
 | [ceo\-personal\-os](https://github.com/2389-research/ceo-personal-os) | Personal operating system for executives \- reflection frameworks, goal systems, coaching\-style reviews \(Gustin, Ferriss, Robbins, Lieberman, Campbell, Eisenmann, Collins, Martell, Gerber, Blank\) | 5 |
 | [test\-kitchen](https://github.com/2389-research/test-kitchen) | Parallel exploration of implementation approaches \- implements multiple variants simultaneously and lets tests determine the winner | 5 |
-| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 5 |
 | [jam](https://github.com/2389-research/jam) | Claude Code plugin that explores, builds, and reviews competing approaches with parallel agents, then combines their strongest ideas\. | 3 |
 | [scenario\-testing](https://github.com/2389-research/scenario-testing) | End\-to\-end testing with real dependencies \- no mocks allowed; scenarios with real data are the only source of truth | 3 |
 | [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 3 |

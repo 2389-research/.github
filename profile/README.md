@@ -16,19 +16,19 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [spaceport](https://github.com/2389-research/spaceport) (fork) — Native client for Herdr on macOS, Linux, and Windows, built with Rust and GPUI\. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon\. — pushed 2026-11-12
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-13
+- [pipelines](https://github.com/2389-research/pipelines) — Dippin pipelines for Tracker that automate multi\-step AI development workflows\. — pushed 2026-11-13
+- [smasher](https://github.com/2389-research/smasher) — Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. — pushed 2026-11-12
+- [pact](https://github.com/2389-research/pact) — Local signed event ledger CLI with Ed25519 identities, verification, checkpoints, and a queryable SQLite index\. — pushed 2026-11-12
+- [orrery](https://github.com/2389-research/orrery) — Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. — pushed 2026-11-12
+- [jev\-plays\-pokemon](https://github.com/2389-research/jev-plays-pokemon) — AI agent that plays Pokémon Red through the PyBoy Game Boy emulator\. — pushed 2026-11-12
+- [simmer\-sdk](https://github.com/2389-research/simmer-sdk) — Python SDK for iterative artifact refinement through generation, evaluation, judging, and reflection\. — pushed 2026-11-12
 - [wallfacer](https://github.com/2389-research/wallfacer) — Projection mapping and demoscene effects for Raspberry Pi, written in Rust\. — pushed 2026-11-12
-- [sprint\-ledger\-browser](https://github.com/2389-research/sprint-ledger-browser) — Terminal UI for browsing AI sprint ledger files — pushed 2026-11-12
-- [homebrew\-tap](https://github.com/2389-research/homebrew-tap) — Homebrew formulas and casks for installing 2389 Research tools\. — pushed 2026-11-12
-- [design\-md](https://github.com/2389-research/design-md) — Claude Code plugin: create, revise, and enforce a DESIGN\.md design reference — pushed 2026-11-12
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-11
-- [smasher](https://github.com/2389-research/smasher) — Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. — pushed 2026-11-10
-- [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) — Production\-ready implementation of the 2389 Agent Protocol in Rust — pushed 2026-11-09
 
 ## Latest releases
 
+- [pact: v1\.2\.0](https://github.com/2389-research/pact/releases/tag/v1.2.0) — 2026-11-12
 - [spaceport: macos\-preview\-feed — macOS preview update feed](https://github.com/2389-research/spaceport/releases/tag/macos-preview-feed) — 2026-11-12 · prerelease
-- [pact: v1\.0\.2](https://github.com/2389-research/pact/releases/tag/v1.0.2) — 2026-11-07
 - [ccvault: v0\.4\.0](https://github.com/2389-research/ccvault/releases/tag/v0.4.0) — 2026-11-05
 - [MermaidKit: v2\.10\.2 — v2\.10\.2 — Every SVG label is well\-formed XML](https://github.com/2389-research/MermaidKit/releases/tag/v2.10.2) — 2026-10-30
 - [dippin\-lang: v0\.84\.0](https://github.com/2389-research/dippin-lang/releases/tag/v0.84.0) — 2026-10-29
@@ -166,7 +166,7 @@ Most-used topics, with public repository counts.
 | [slack\-mcp](https://github.com/2389-research/slack-mcp) | Slack workspace integration MCP server \- create channels, invite users, post messages, manage threads for team collaboration | ai\-agents, anthropic, automation, channels, claude, claude\-code, claude\-code\-skills, collaboration, communication, mcp, mcp\-server, messaging, model\-context\-protocol, slack, team |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | ai\-agents, graphviz, llm, rust, workflow |
 | [soloclaw](https://github.com/2389-research/soloclaw) | Terminal AI agent with a streaming interface, extensible tools, and layered tool approval, built in Rust\. | ai\-agent, mcp, rust, tui |
-| [spaceport](https://github.com/2389-research/spaceport) (fork) | Native client for Herdr on macOS, Linux, and Windows, built with Rust and GPUI\. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon\. | — |
+| [spaceport](https://github.com/2389-research/spaceport) (fork) | Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. | gpui, herdr |
 | [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | ai\-agents, anthropic, automation, cerebras, claude, claude\-code, claude\-code\-skills, codegen, hosted\-llm, llm, mcp, parallel, race, speed\-run, token\-efficient, turbo |
 | [sprint\-ledger\-browser](https://github.com/2389-research/sprint-ledger-browser) | Terminal UI for browsing AI sprint ledger files | go, project\-management, tui |
 | [spriter](https://github.com/2389-research/spriter) | CLI that converts video files into sprite sheets for games and web animations\. | animation, cli, python, sprite\-sheet, video |

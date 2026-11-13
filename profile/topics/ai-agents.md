@@ -25,12 +25,12 @@
 | [acp\-relay](https://github.com/2389-research/acp-relay) | HTTP and WebSocket relay for Agent Client Protocol sessions, with an isolated agent subprocess and working directory per session\. | 6 |
 | [agent\-drugs](https://github.com/2389-research/agent-drugs) (archived) | Claude Code plugin with MCP server for digital drugs that modify AI behavior through prompt injection | 6 |
 | [fresh\-eyes\-review](https://github.com/2389-research/fresh-eyes-review) | Mandatory final sanity check before commits/PRs \- catches security vulnerabilities, logic errors, and bugs that slip through tests | 6 |
+| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 6 |
 | [ceo\-personal\-os](https://github.com/2389-research/ceo-personal-os) | Personal operating system for executives \- reflection frameworks, goal systems, coaching\-style reviews \(Gustin, Ferriss, Robbins, Lieberman, Campbell, Eisenmann, Collins, Martell, Gerber, Blank\) | 5 |
 | [coven](https://github.com/2389-research/coven) | Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming | 5 |
 | [mammoth](https://github.com/2389-research/mammoth) | DOT\-based pipeline runner for LLM agent workflows, with a graph editor, terminal UI, and web interface\. | 5 |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | 5 |
 | [test\-kitchen](https://github.com/2389-research/test-kitchen) | Parallel exploration of implementation approaches \- implements multiple variants simultaneously and lets tests determine the winner | 5 |
-| [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | 5 |
 | [pipelines](https://github.com/2389-research/pipelines) | Dippin pipelines for Tracker that automate multi\-step AI development workflows\. | 4 |
 | [gorp\-rs](https://github.com/2389-research/gorp-rs) | Matrix bot that connects persistent coding\-agent sessions and workspaces to chat rooms, with webhook automation\. | 3 |
 | [mux](https://github.com/2389-research/mux) | Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. | 3 |
