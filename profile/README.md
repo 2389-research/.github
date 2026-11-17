@@ -16,14 +16,14 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-15
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-17
+- [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) — Production\-ready implementation of the 2389 Agent Protocol in Rust — pushed 2026-11-16
 - [pipelines](https://github.com/2389-research/pipelines) — Dippin pipelines for Tracker that automate multi\-step AI development workflows\. — pushed 2026-11-13
 - [smasher](https://github.com/2389-research/smasher) — Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. — pushed 2026-11-12
 - [pact](https://github.com/2389-research/pact) — Local signed event ledger CLI with Ed25519 identities, verification, checkpoints, and a queryable SQLite index\. — pushed 2026-11-12
 - [orrery](https://github.com/2389-research/orrery) — Knowledge graph pipeline that classifies documents and images, extracts entities, and maps their relationships\. — pushed 2026-11-12
 - [jev\-plays\-pokemon](https://github.com/2389-research/jev-plays-pokemon) — AI agent that plays Pokémon Red through the PyBoy Game Boy emulator\. — pushed 2026-11-12
 - [simmer\-sdk](https://github.com/2389-research/simmer-sdk) — Python SDK for iterative artifact refinement through generation, evaluation, judging, and reflection\. — pushed 2026-11-12
-- [wallfacer](https://github.com/2389-research/wallfacer) — Projection mapping and demoscene effects for Raspberry Pi, written in Rust\. — pushed 2026-11-12
 
 ## Latest releases
 
@@ -49,7 +49,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 ## Top starred repos
 
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 103 stars
-- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 42 stars
+- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 43 stars
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 35 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 23 stars
 - [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 22 stars
