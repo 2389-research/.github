@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) | Production\-ready implementation of the 2389 Agent Protocol in Rust | 2 |
+| [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) | Production\-ready implementation of the 2389 Agent Protocol in Rust | 1 |
 | [2389\-kiosk\-cli](https://github.com/2389-research/2389-kiosk-cli) | Retro TUI demo suite with 3D effects, starfields, and MQTT message display | 0 |
 | [camera\-sensors](https://github.com/2389-research/camera-sensors) | Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute | 0 |
 | [noseyposey](https://github.com/2389-research/noseyposey) | Relays MQTT voice transcripts into Slack, grouping replies into one thread per device per day\. | 0 |

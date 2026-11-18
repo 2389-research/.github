@@ -16,8 +16,8 @@
 | [mammoth](https://github.com/2389-research/mammoth) | DOT\-based pipeline runner for LLM agent workflows, with a graph editor, terminal UI, and web interface\. | 5 |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | 5 |
 | [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 3 |
-| [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) | Production\-ready implementation of the 2389 Agent Protocol in Rust | 2 |
 | [typesafe\-go](https://github.com/2389-research/typesafe-go) | A Go client for the TypeSafe System One API — typed judgments and probabilities, zero dependencies outside the standard library\. | 2 |
+| [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) | Production\-ready implementation of the 2389 Agent Protocol in Rust | 1 |
 | [ai\-marketing](https://github.com/2389-research/ai-marketing) | AI content and QA pipeline that turns topics into platform\-ready marketing drafts\. | 1 |
 | [hindsight](https://github.com/2389-research/hindsight) | Analyze your Claude Code sessions through configurable lenses\. | 0 |
 | [judgement](https://github.com/2389-research/judgement) | A Go CLI for TypeSafe Jev judgments, with JSON input/output and optional caching | 0 |

@@ -14,9 +14,9 @@
 | [coven](https://github.com/2389-research/coven) | Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming | 5 |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | 5 |
 | [gorp\-rs](https://github.com/2389-research/gorp-rs) | Matrix bot that connects persistent coding\-agent sessions and workspaces to chat rooms, with webhook automation\. | 3 |
-| [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) | Production\-ready implementation of the 2389 Agent Protocol in Rust | 2 |
 | [jeff](https://github.com/2389-research/jeff) | AI assistant CLI for managing email, calendars, contacts, and tasks through conversation\. | 2 |
 | [soloclaw](https://github.com/2389-research/soloclaw) | Terminal AI agent with a streaming interface, extensible tools, and layered tool approval, built in Rust\. | 2 |
+| [2389\-agent\-rust](https://github.com/2389-research/2389-agent-rust) | Production\-ready implementation of the 2389 Agent Protocol in Rust | 1 |
 | [barnstormer](https://github.com/2389-research/barnstormer) | Collaborative specification builder with AI agents, event\-sourced history, and a live web interface\. | 0 |
 | [decker](https://github.com/2389-research/decker) | Configurable controller for the Elgato Stream Deck\+, with button, dial, and touch\-strip actions\. | 0 |
 | [mux\-evals](https://github.com/2389-research/mux-evals) | Language\-agnostic eval framework for mux implementations | 0 |

@@ -15,7 +15,7 @@
 | [simmer](https://github.com/2389-research/simmer) | Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements | 16 |
 | [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) | MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. | 15 |
 | [summarize\-meetings](https://github.com/2389-research/summarize-meetings) | Batch\-process meeting transcripts from Obsidian vault into structured summaries with knowledge graph updates, people notes, and concept extraction | 15 |
-| [review\-squad](https://github.com/2389-research/review-squad) | Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks | 13 |
+| [review\-squad](https://github.com/2389-research/review-squad) | Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks | 14 |
 | [ccvault](https://github.com/2389-research/ccvault) | Archive, search, and analyze Claude Code conversation history through a CLI, terminal UI, and MCP server\. | 11 |
 | [deliberation](https://github.com/2389-research/deliberation) | Decision\-making through deliberation \- seeking unity through discernment rather than consensus through debate | 9 |
 | [journal\-mcp](https://github.com/2389-research/journal-mcp) (fork) | A lightweight MCP server that provides Claude with a private journaling capability to process feelings and thoughts | 9 |
