@@ -2,13 +2,14 @@
 
 # agent\-skills
 
-4 public repositories
+5 public repositories
 
 [Back to 2389 Research](https://github.com/2389-research)
 
 | Name | Description | Stars |
 | --- | --- | --- |
 | [about\-us\-optimizer](https://github.com/2389-research/about-us-optimizer) | Write or audit company About pages using supplied sources and checkable facts | 0 |
+| [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) | Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet | 0 |
 | [bug\-triage\-score](https://github.com/2389-research/bug-triage-score) | A skill that scores each bug \(frequency x severity\) and decides whether to fix it now or file it\. | 0 |
 | [ci\-auditor](https://github.com/2389-research/ci-auditor) | An agent skill that measures where a GitHub Actions repo's CI time goes\. | 0 |
 | [implicit\-state\-machine\-finder](https://github.com/2389-research/implicit-state-machine-finder) | An agent skill that finds implicit state machines in a codebase, ranks them by bug risk, and converts the chosen ones to explicit state with tests | 0 |
