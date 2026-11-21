@@ -16,14 +16,14 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-20
-- [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) — Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet — pushed 2026-11-18
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-21
+- [noseyposey](https://github.com/2389-research/noseyposey) — Relays MQTT voice transcripts into Slack, grouping replies into one thread per device per day\. — pushed 2026-11-21
+- [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) — Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet — pushed 2026-11-20
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-18
 - [implicit\-state\-machine\-finder](https://github.com/2389-research/implicit-state-machine-finder) — An agent skill that finds implicit state machines in a codebase, ranks them by bug risk, and converts the chosen ones to explicit state with tests — pushed 2026-11-17
 - [about\-us\-optimizer](https://github.com/2389-research/about-us-optimizer) — Write or audit company About pages using supplied sources and checkable facts — pushed 2026-11-17
 - [ci\-auditor](https://github.com/2389-research/ci-auditor) — An agent skill that measures where a GitHub Actions repo's CI time goes\. — pushed 2026-11-17
 - [bug\-triage\-score](https://github.com/2389-research/bug-triage-score) — A skill that scores each bug \(frequency x severity\) and decides whether to fix it now or file it\. — pushed 2026-11-17
-- [agent\-ergo](https://github.com/2389-research/agent-ergo) — A skill for making systems intuitive, ergonomic, and cumulative for AI agents — pushed 2026-11-17
 
 ## Latest releases
 
@@ -48,7 +48,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Top starred repos
 
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 104 stars
+- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 105 stars
 - [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 43 stars
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 35 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 23 stars
