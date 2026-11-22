@@ -16,7 +16,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-21
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-22
 - [noseyposey](https://github.com/2389-research/noseyposey) — Relays MQTT voice transcripts into Slack, grouping replies into one thread per device per day\. — pushed 2026-11-21
 - [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) — Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet — pushed 2026-11-20
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-18
@@ -27,7 +27,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Latest releases
 
-- [spaceport: v20261117\.1 — Spaceport 20261117\.1 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261117.1) — 2026-11-17 · prerelease
+- [spaceport: v20261122\.1 — Spaceport 20261122\.1 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261122.1) — 2026-11-22 · prerelease
 - [pact: v1\.2\.0](https://github.com/2389-research/pact/releases/tag/v1.2.0) — 2026-11-12
 - [ccvault: v0\.4\.0](https://github.com/2389-research/ccvault/releases/tag/v0.4.0) — 2026-11-05
 - [MermaidKit: v2\.10\.2 — v2\.10\.2 — Every SVG label is well\-formed XML](https://github.com/2389-research/MermaidKit/releases/tag/v2.10.2) — 2026-10-30
@@ -48,10 +48,10 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Top starred repos
 
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 105 stars
-- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 43 stars
+- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 106 stars
+- [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 44 stars
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 35 stars
-- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 23 stars
+- [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 24 stars
 - [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 22 stars
 - [thrifty](https://github.com/2389-research/thrifty) — Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. — 17 stars
 - [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — 16 stars

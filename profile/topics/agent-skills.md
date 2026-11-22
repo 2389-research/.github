@@ -8,7 +8,7 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) | Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet | 1 |
+| [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) | Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet | 2 |
 | [about\-us\-optimizer](https://github.com/2389-research/about-us-optimizer) | Write or audit company About pages using supplied sources and checkable facts | 0 |
 | [bug\-triage\-score](https://github.com/2389-research/bug-triage-score) | A skill that scores each bug \(frequency x severity\) and decides whether to fix it now or file it\. | 0 |
 | [ci\-auditor](https://github.com/2389-research/ci-auditor) | An agent skill that measures where a GitHub Actions repo's CI time goes\. | 0 |

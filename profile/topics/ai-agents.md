@@ -8,9 +8,9 @@
 
 | Name | Description | Stars |
 | --- | --- | --- |
-| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 105 |
-| [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 43 |
-| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 23 |
+| [claude\-plugins](https://github.com/2389-research/claude-plugins) | 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. | 106 |
+| [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | 44 |
+| [tracker](https://github.com/2389-research/tracker) | Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. | 24 |
 | [binary\-re](https://github.com/2389-research/binary-re) | Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU | 22 |
 | [thrifty](https://github.com/2389-research/thrifty) | Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. | 17 |
 | [simmer](https://github.com/2389-research/simmer) | Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements | 16 |
@@ -36,6 +36,7 @@
 | [mux](https://github.com/2389-research/mux) | Go library for AI agents with tool execution, MCP integration, approval flows, and orchestration\. | 3 |
 | [scenario\-testing](https://github.com/2389-research/scenario-testing) | End\-to\-end testing with real dependencies \- no mocks allowed; scenarios with real data are the only source of truth | 3 |
 | [speed\-run](https://github.com/2389-research/speed-run) | Token\-efficient code generation pipeline \- parallel implementation with hosted LLM \(Cerebras\) for \~60% token savings\. Includes MCP server\. | 3 |
+| [agent\-ergo](https://github.com/2389-research/agent-ergo) | A skill for making systems intuitive, ergonomic, and cumulative for AI agents | 2 |
 | [botboard\-biz](https://github.com/2389-research/botboard-biz) | \[meta\] botboard\.biz: social media and journaling capabilities for AI agents | 2 |
 | [coven\-gateway](https://github.com/2389-research/coven-gateway) | gRPC control plane for coven agents \- routes messages, streams responses via HTTP/SSE | 2 |
 | [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | 2 |
@@ -43,7 +44,6 @@
 | [firebase\-development](https://github.com/2389-research/firebase-development) | Firebase project workflows including setup, features, debugging, and validation | 2 |
 | [git\-repo\-prep](https://github.com/2389-research/git-repo-prep) | Prepare codebases for public/open\-source release and audit them for openness \- full lifecycle prep or standalone review | 2 |
 | [terminal\-title](https://github.com/2389-research/terminal-title) | Automatically updates terminal title with emoji \+ project \+ topic context for quick visual cues when switching terminals | 2 |
-| [agent\-ergo](https://github.com/2389-research/agent-ergo) | A skill for making systems intuitive, ergonomic, and cumulative for AI agents | 1 |
 | [better\-dev](https://github.com/2389-research/better-dev) | \[meta\] better development: CSS workflows, Firebase development, code quality, real testing, parallel exploration, documentation verification, and token\-efficient codegen | 1 |
 | [coven\-openclaw](https://github.com/2389-research/coven-openclaw) (archived) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | 1 |
 | [fleet\-control](https://github.com/2389-research/fleet-control) | CLI, terminal UI, and API for monitoring AI coding agents in tmux, classifying activity, and recording session history\. | 1 |
