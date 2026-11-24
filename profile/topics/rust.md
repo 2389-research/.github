@@ -9,7 +9,7 @@
 | Name | Description | Stars |
 | --- | --- | --- |
 | [cc\-log\-viewer](https://github.com/2389-research/cc-log-viewer) | Web interface for browsing, searching, and auditing Claude Code conversation logs\. | 8 |
-| [dot\-viewer](https://github.com/2389-research/dot-viewer) | Native macOS Graphviz \.dot file viewer and editor — Rust core with SwiftUI frontend | 6 |
+| [dot\-viewer](https://github.com/2389-research/dot-viewer) | Native macOS Graphviz \.dot file viewer and editor — Rust core with SwiftUI frontend | 7 |
 | [boba](https://github.com/2389-research/boba) | A Bubble Tea\-inspired TUI framework for Rust, built on ratatui | 5 |
 | [coven](https://github.com/2389-research/coven) | Rust platform for orchestrating AI agents with tool capabilities and gRPC streaming | 5 |
 | [smasher](https://github.com/2389-research/smasher) | Rust workflow engine that runs AI pipelines from DOT graphs, with tool\-using agents and a web dashboard\. | 5 |

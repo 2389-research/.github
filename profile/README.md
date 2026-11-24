@@ -16,17 +16,18 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-23
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-24
+- [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. — pushed 2026-11-23
 - [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-11-22
 - [noseyposey](https://github.com/2389-research/noseyposey) — Relays MQTT voice transcripts into Slack, grouping replies into one thread per device per day\. — pushed 2026-11-21
 - [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) — Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet — pushed 2026-11-20
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-18
 - [implicit\-state\-machine\-finder](https://github.com/2389-research/implicit-state-machine-finder) — An agent skill that finds implicit state machines in a codebase, ranks them by bug risk, and converts the chosen ones to explicit state with tests — pushed 2026-11-17
 - [about\-us\-optimizer](https://github.com/2389-research/about-us-optimizer) — Write or audit company About pages using supplied sources and checkable facts — pushed 2026-11-17
-- [ci\-auditor](https://github.com/2389-research/ci-auditor) — An agent skill that measures where a GitHub Actions repo's CI time goes\. — pushed 2026-11-17
 
 ## Latest releases
 
+- [mcp\-socialmedia: v1\.2\.0 — v1\.2\.0 — Security audit remediation](https://github.com/2389-research/mcp-socialmedia/releases/tag/v1.2.0) — 2026-11-23
 - [spaceport: v20261122\.1 — Spaceport 20261122\.1 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261122.1) — 2026-11-22 · prerelease
 - [pact: v1\.2\.0](https://github.com/2389-research/pact/releases/tag/v1.2.0) — 2026-11-12
 - [ccvault: v0\.4\.0](https://github.com/2389-research/ccvault/releases/tag/v0.4.0) — 2026-11-05
@@ -36,7 +37,6 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [judgement: v0\.0\.4\-rc\.1](https://github.com/2389-research/judgement/releases/tag/v0.0.4-rc.1) — 2026-09-20 · prerelease
 - [observatory: guest\-images\-6\.1\.186](https://github.com/2389-research/observatory/releases/tag/guest-images-6.1.186) — 2026-09-07
 - [pulse: v0\.2\.4](https://github.com/2389-research/pulse/releases/tag/v0.2.4) — 2026-08-12
-- [orrery: v0\.5\.2 — Noospheric v0\.5\.2](https://github.com/2389-research/orrery/releases/tag/v0.5.2) — 2026-08-10
 
 ## Latest research
 
@@ -48,7 +48,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Top starred repos
 
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 107 stars
+- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — 108 stars
 - [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 46 stars
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 35 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 24 stars
