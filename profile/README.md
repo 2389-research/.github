@@ -16,19 +16,19 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-24
+- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-25
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-25
+- [logref](https://github.com/2389-research/logref) — Ref: name private things in logs only when the caller may see them\. A tiny Go library and a repo\-walking guard\-test pattern\. — pushed 2026-11-24
 - [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. — pushed 2026-11-23
 - [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-11-22
 - [noseyposey](https://github.com/2389-research/noseyposey) — Relays MQTT voice transcripts into Slack, grouping replies into one thread per device per day\. — pushed 2026-11-21
 - [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) — Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet — pushed 2026-11-20
-- [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-18
 - [implicit\-state\-machine\-finder](https://github.com/2389-research/implicit-state-machine-finder) — An agent skill that finds implicit state machines in a codebase, ranks them by bug risk, and converts the chosen ones to explicit state with tests — pushed 2026-11-17
-- [about\-us\-optimizer](https://github.com/2389-research/about-us-optimizer) — Write or audit company About pages using supplied sources and checkable facts — pushed 2026-11-17
 
 ## Latest releases
 
+- [spaceport: v20261125\.1 — Spaceport 20261125\.1 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261125.1) — 2026-11-25 · prerelease
 - [mcp\-socialmedia: v1\.2\.0 — v1\.2\.0 — Security audit remediation](https://github.com/2389-research/mcp-socialmedia/releases/tag/v1.2.0) — 2026-11-23
-- [spaceport: v20261122\.1 — Spaceport 20261122\.1 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261122.1) — 2026-11-22 · prerelease
 - [pact: v1\.2\.0](https://github.com/2389-research/pact/releases/tag/v1.2.0) — 2026-11-12
 - [ccvault: v0\.4\.0](https://github.com/2389-research/ccvault/releases/tag/v0.4.0) — 2026-11-05
 - [MermaidKit: v2\.10\.2 — v2\.10\.2 — Every SVG label is well\-formed XML](https://github.com/2389-research/MermaidKit/releases/tag/v2.10.2) — 2026-10-30
@@ -53,8 +53,8 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 35 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 24 stars
 - [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 22 stars
+- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — 17 stars
 - [thrifty](https://github.com/2389-research/thrifty) — Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. — 17 stars
-- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — 16 stars
 - [simmer](https://github.com/2389-research/simmer) — Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements — 16 stars
 - [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. — 15 stars
 - [review\-squad](https://github.com/2389-research/review-squad) — Dispatch panels of specialized subagents to review projects — expert audits, first\-impression personas, task\-completion flows, and pedantic nitpicks — 15 stars
@@ -68,7 +68,7 @@ Most-used topics, with public repository counts.
 ## Repository directory
 
 <details>
-<summary>Browse all 123 public repositories</summary>
+<summary>Browse all 124 public repositories</summary>
 
 | Name | Description | Topics |
 | --- | --- | --- |
@@ -136,6 +136,7 @@ Most-used topics, with public repository counts.
 | [judgement](https://github.com/2389-research/judgement) | A Go CLI for TypeSafe Jev judgments, with JSON input/output and optional caching | cli, evaluation, go, llm |
 | [landing\-page\-design](https://github.com/2389-research/landing-page-design) | Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles | ai\-agents, anthropic, automation, claude, claude\-code, claude\-code\-skills, conversion, design, hero, homepage, landing\-page, marketing, saas |
 | [llm\-weather](https://github.com/2389-research/llm-weather) (archived) | — | — |
+| [logref](https://github.com/2389-research/logref) | Ref: name private things in logs only when the caller may see them\. A tiny Go library and a repo\-walking guard\-test pattern\. | — |
 | [mammoth](https://github.com/2389-research/mammoth) | DOT\-based pipeline runner for LLM agent workflows, with a graph editor, terminal UI, and web interface\. | ai\-agents, go, graphviz, llm, workflow |
 | [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) | MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. | ai\-agents, anthropic, automation, claude, claude\-code, claude\-code\-skills, mcp\-server, model\-context\-protocol |
 | [mdstore](https://github.com/2389-research/mdstore) | Shared Go library for file\-based markdown storage with YAML frontmatter | file\-storage, frontmatter, go, markdown |
