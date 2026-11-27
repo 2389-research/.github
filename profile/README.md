@@ -16,18 +16,18 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
-- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-26
+- [barnstormer](https://github.com/2389-research/barnstormer) — Collaborative specification builder with AI agents, event\-sourced history, and a live web interface\. — pushed 2026-11-27
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-27
+- [crash\-drill](https://github.com/2389-research/crash-drill) — Prove your local\-first pipeline survives SIGKILL: a template harness that kills at every durability boundary \(post\-emit, post\-batch, post\-send, post\-ack\) and verifies no\-loss/no\-dup on restart — pushed 2026-11-26
+- [workers\-bounded](https://github.com/2389-research/workers-bounded) — Bounded\-memory primitives for Cloudflare Workers: readCapped \(refuse\-before\-read\), streamParts \(byte\-budgeted streaming with frame\-boundary cuts\), mergeJoinPages — plus the memory\-hazard grep and the doctrine that bounds the common case — pushed 2026-11-26
+- [crewboard](https://github.com/2389-research/crewboard) — Cross\-session, cross\-machine agent coordination: claim\-as\-lock, heartbeat TTL, board\-as\-record over a shared artifact host\. One CLI, any board\. — pushed 2026-11-26
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-25
 - [logref](https://github.com/2389-research/logref) — Ref: name private things in logs only when the caller may see them\. A tiny Go library and a repo\-walking guard\-test pattern\. — pushed 2026-11-24
 - [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. — pushed 2026-11-23
-- [camera\-sensors](https://github.com/2389-research/camera-sensors) — Home Assistant binary sensors from RTSP cameras, judged by Djev through LunaRoute — pushed 2026-11-22
-- [noseyposey](https://github.com/2389-research/noseyposey) — Relays MQTT voice transcripts into Slack, grouping replies into one thread per device per day\. — pushed 2026-11-21
-- [artifact\-host\-skill](https://github.com/2389-research/artifact-host-skill) — Agent Skill: share work with people through an artifact\-host on a Tailscale tailnet — pushed 2026-11-20
-- [implicit\-state\-machine\-finder](https://github.com/2389-research/implicit-state-machine-finder) — An agent skill that finds implicit state machines in a codebase, ranks them by bug risk, and converts the chosen ones to explicit state with tests — pushed 2026-11-17
 
 ## Latest releases
 
-- [spaceport: v20261126\.3 — Spaceport 20261126\.3 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261126.3) — 2026-11-26 · prerelease
+- [spaceport: v20261127\.1 — Spaceport 20261127\.1 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261127.1) — 2026-11-27 · prerelease
 - [mcp\-socialmedia: v1\.2\.0 — v1\.2\.0 — Security audit remediation](https://github.com/2389-research/mcp-socialmedia/releases/tag/v1.2.0) — 2026-11-23
 - [pact: v1\.2\.0](https://github.com/2389-research/pact/releases/tag/v1.2.0) — 2026-11-12
 - [ccvault: v0\.4\.0](https://github.com/2389-research/ccvault/releases/tag/v0.4.0) — 2026-11-05
@@ -52,8 +52,8 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 - [landing\-page\-design](https://github.com/2389-research/landing-page-design) — Create high\-converting, visually distinctive landing pages with Vibe Discovery process and anti\-AI\-slop principles — 46 stars
 - [dippin\-lang](https://github.com/2389-research/dippin-lang) — Dippin: a DSL for authoring AI pipeline workflows — 35 stars
 - [tracker](https://github.com/2389-research/tracker) — Pipeline engine for multi\-agent LLM workflows, with Dippin pipelines, parallel agents, and a terminal dashboard\. — 24 stars
-- [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 22 stars
-- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — 17 stars
+- [binary\-re](https://github.com/2389-research/binary-re) — Agentic binary reverse engineering for ELF binaries on ARM64, ARMv7, x86\_64 \- hypothesis\-driven analysis with radare2, Ghidra, GDB, QEMU — 23 stars
+- [MermaidKit](https://github.com/2389-research/MermaidKit) — Native Mermaid diagrams in Swift — all 30 types, on Apple, Linux, Android, Windows, Flutter and WebAssembly from one layout core\. No JavaScript, no WebView, zero dependencies\. — 18 stars
 - [thrifty](https://github.com/2389-research/thrifty) — Tiered\-delegation task execution for Claude Code: strong model plans, cheap models execute in parallel, mid model verifies against acceptance criteria\. — 17 stars
 - [simmer](https://github.com/2389-research/simmer) — Iterative artifact refinement with investigation\-first judge board \- constructs problem\-specific judges that read the code, understand the problem, and propose evidence\-based improvements — 16 stars
 - [mcp\-socialmedia](https://github.com/2389-research/mcp-socialmedia) — MCP server that lets AI agents read and create posts, replies, and team\-based discussions\. — 15 stars
@@ -68,7 +68,7 @@ Most-used topics, with public repository counts.
 ## Repository directory
 
 <details>
-<summary>Browse all 124 public repositories</summary>
+<summary>Browse all 127 public repositories</summary>
 
 | Name | Description | Topics |
 | --- | --- | --- |
@@ -105,6 +105,8 @@ Most-used topics, with public repository counts.
 | [coven\-gateway](https://github.com/2389-research/coven-gateway) | gRPC control plane for coven agents \- routes messages, streams responses via HTTP/SSE | ai\-agents, go, grpc, orchestration |
 | [coven\-openclaw](https://github.com/2389-research/coven-openclaw) (archived) | Coven Gateway channel plugin for OpenClaw — gRPC AgentStream bridge | ai\-agents, grpc, openclaw, typescript |
 | [coven\-proto](https://github.com/2389-research/coven-proto) | Canonical protobuf definitions for Coven agent\-to\-gateway communication and bidirectional streaming\. | ai\-agents, grpc, protobuf |
+| [crash\-drill](https://github.com/2389-research/crash-drill) | Prove your local\-first pipeline survives SIGKILL: a template harness that kills at every durability boundary \(post\-emit, post\-batch, post\-send, post\-ack\) and verifies no\-loss/no\-dup on restart | — |
+| [crewboard](https://github.com/2389-research/crewboard) | Cross\-session, cross\-machine agent coordination: claim\-as\-lock, heartbeat TTL, board\-as\-record over a shared artifact host\. One CLI, any board\. | — |
 | [css\-development](https://github.com/2389-research/css-development) | CSS development workflows with Tailwind composition, semantic naming, and dark mode by default | ai\-agents, anthropic, automation, claude, claude\-code, claude\-code\-skills, components, css, dark\-mode, styling, tailwind |
 | [decker](https://github.com/2389-research/decker) | Configurable controller for the Elgato Stream Deck\+, with button, dial, and touch\-strip actions\. | hardware, home\-automation, rust, stream\-deck |
 | [deliberation](https://github.com/2389-research/deliberation) | Decision\-making through deliberation \- seeking unity through discernment rather than consensus through debate | agentic, ai\-agents, anthropic, automation, claude, claude\-code, claude\-code\-skills, clearness\-committee, consensus, decision\-making, deliberation, discernment, ethics, multi\-agent, unity |
@@ -194,6 +196,7 @@ Most-used topics, with public repository counts.
 | [wallfacer](https://github.com/2389-research/wallfacer) | Projection mapping and demoscene effects for Raspberry Pi, written in Rust\. | demoscene, projection\-mapping, raspberry\-pi, rust |
 | [word\-compiler](https://github.com/2389-research/word-compiler) | Context compiler for long\-form fiction that turns character, voice, and scene plans into guided LLM prose generation\. | context\-engineering, creative\-writing, llm, typescript |
 | [workchat\-mcp](https://github.com/2389-research/workchat-mcp) | Team chat application with channels, threaded conversations, search, and MCP access for AI assistants\. | mcp, python, real\-time, team\-chat |
+| [workers\-bounded](https://github.com/2389-research/workers-bounded) | Bounded\-memory primitives for Cloudflare Workers: readCapped \(refuse\-before\-read\), streamParts \(byte\-budgeted streaming with frame\-boundary cuts\), mergeJoinPages — plus the memory\-hazard grep and the doctrine that bounds the common case | — |
 | [worldview\-synthesis](https://github.com/2389-research/worldview-synthesis) | Systematic worldview articulation \- surface beliefs, identify tensions, generate narrative outputs for personal philosophy documentation | ai\-agents, anthropic, automation, beliefs, claude, claude\-code, claude\-code\-skills, manifesto, mission, philosophy, self\-discovery, values, worldview |
 | [xtool](https://github.com/2389-research/xtool) | Xcode\-free iOS development with xtool \- build SwiftPM apps on Linux, Windows, and macOS without Xcode | ai\-agents, anthropic, automation, claude, claude\-code, claude\-code\-skills, cross\-platform, extensions, ios, swift, swiftpm, widgets, xcode\-free, xtool |
 
