@@ -16,10 +16,10 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Recent activity
 
+- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-28
+- [workers\-bounded](https://github.com/2389-research/workers-bounded) — Bounded\-memory primitives for Cloudflare Workers: readCapped \(refuse\-before\-read\), streamParts \(byte\-budgeted streaming with frame\-boundary cuts\), mergeJoinPages — plus the memory\-hazard grep and the doctrine that bounds the common case — pushed 2026-11-27
 - [barnstormer](https://github.com/2389-research/barnstormer) — Collaborative specification builder with AI agents, event\-sourced history, and a live web interface\. — pushed 2026-11-27
-- [spaceport](https://github.com/2389-research/spaceport) (fork) — Spaceport is a native workspace for terminals and AI agents, powered by Herdr and Herdr Core\. — pushed 2026-11-27
 - [crash\-drill](https://github.com/2389-research/crash-drill) — Prove your local\-first pipeline survives SIGKILL: a template harness that kills at every durability boundary \(post\-emit, post\-batch, post\-send, post\-ack\) and verifies no\-loss/no\-dup on restart — pushed 2026-11-26
-- [workers\-bounded](https://github.com/2389-research/workers-bounded) — Bounded\-memory primitives for Cloudflare Workers: readCapped \(refuse\-before\-read\), streamParts \(byte\-budgeted streaming with frame\-boundary cuts\), mergeJoinPages — plus the memory\-hazard grep and the doctrine that bounds the common case — pushed 2026-11-26
 - [crewboard](https://github.com/2389-research/crewboard) — Cross\-session, cross\-machine agent coordination: claim\-as\-lock, heartbeat TTL, board\-as\-record over a shared artifact host\. One CLI, any board\. — pushed 2026-11-26
 - [claude\-plugins](https://github.com/2389-research/claude-plugins) — 28 plugins and MCP servers for Claude Code — TDD, multi\-agent orchestration, iterative refinement, binary RE, structured decisions\. Install any skill in one command\. — pushed 2026-11-25
 - [logref](https://github.com/2389-research/logref) — Ref: name private things in logs only when the caller may see them\. A tiny Go library and a repo\-walking guard\-test pattern\. — pushed 2026-11-24
@@ -27,7 +27,7 @@ We're an applied AI lab in Chicago. We build tools for agents, share our researc
 
 ## Latest releases
 
-- [spaceport: v20261127\.1 — Spaceport 20261127\.1 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261127.1) — 2026-11-27 · prerelease
+- [spaceport: v20261128\.1 — Spaceport 20261128\.1 \(macOS preview\)](https://github.com/2389-research/spaceport/releases/tag/v20261128.1) — 2026-11-28 · prerelease
 - [mcp\-socialmedia: v1\.2\.0 — v1\.2\.0 — Security audit remediation](https://github.com/2389-research/mcp-socialmedia/releases/tag/v1.2.0) — 2026-11-23
 - [pact: v1\.2\.0](https://github.com/2389-research/pact/releases/tag/v1.2.0) — 2026-11-12
 - [ccvault: v0\.4\.0](https://github.com/2389-research/ccvault/releases/tag/v0.4.0) — 2026-11-05
